@@ -1,0 +1,24 @@
+.feedbacks {
+    margin: 15px auto;
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.feedback {
+    box-shadow: 0 0 3px rgba(0,0,0,0.3);
+}
+
+.fb-img {
+    width: 100%;
+    display: block;
+}
+
+.fb-content {
+    line-height: 1.5;
+    font-size: 0.9em;
+    padding: 15px;
+    background: #fafafa;
+    text-decoration: none;
+    color: black;
+}
