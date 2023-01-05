@@ -17,7 +17,8 @@ const NavLinks = () => {
                 setSubHeading('')
               }}
             >
-              {link.name}
+              {/* {link.name} */}
+              <a href={'#' + link.name}>{link.name}</a>
               <span className="text-xl md:hidden inline">
                 <ion-icon
                   name={`${
@@ -31,21 +32,21 @@ const NavLinks = () => {
             </h1>
             {link.submenu && (
               <div>
-                <div className="absolute top-20 hidden group-hover:md:block hover:md:block">
-                  <div className="py-3">
+                <div className="absolute top-20 hidden group-hover:md:block hover:md:block z-10">
+                  {/* <div className="py-3">
                     <div
                       className="w-4 h-4 left-3 absolute 
-                    mt-1 bg-white rotate-45"
+                    mt-1 bg-blue-500 rotate-45"
                     ></div>
-                  </div>
-                  <div className="bg-white p-5 grid grid-cols-3 gap-10">
+                  </div> */}
+                  <div className="bg-indigo-50 p-5 grid grid-cols-3 gap-10">
                     {link.sublinks.map((mysublinks) => (
                       <div>
                         <h1 className="text-lg font-semibold">
                           {mysublinks.Head}
                         </h1>
                         {mysublinks.sublink.map((slink) => (
-                          <li className="text-sm text-gray-600 my-2.5">
+                          <li className="text-sm text-black-600 my-2.5">
                             <Link
                               to={slink.link}
                               className="hover:text-primary"

@@ -1,5 +1,5 @@
 import React from 'react'
-import '../../App'
+// import '../../App'
 import { Button } from './../Button'
 import './Carousel.css'
 
@@ -28,10 +28,10 @@ function HomepageSlider() {
           aria-label="Slide 3"
         ></button>
       </div>
-      <div className="carousel-inner">
-        <div className="carousel-item active">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
           <img
-            className="d-block img-fluid"
+            class="center-block"
             width="100%"
             height="100%"
             aria-hidden="true"
@@ -41,9 +41,9 @@ function HomepageSlider() {
             alt=""
           />
         </div>
-        <div className="carousel-item">
+        <div class="carousel-item">
           <img
-            className="d-block img-fluid"
+            class="center-block"
             width="100%"
             height="100%"
             aria-hidden="true"
@@ -53,9 +53,9 @@ function HomepageSlider() {
             alt=""
           />
         </div>
-        <div className="carousel-item">
+        <div class="carousel-item">
           <img
-            className="d-block img-fluid"
+            class="center-block"
             width="100%"
             height="100%"
             aria-hidden="true"
