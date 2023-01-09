@@ -172,11 +172,11 @@ function Home() {
                 <div
                   id="carousel-example-generic-1"
                   className="carousel slide no-margin"
-                  data-ride="carousel"
+                  data-bs-ride="carousel"
                 >
                   {/* Indicators */}
-                  {/*<ol class="carousel-indicators bottom-10">
-              <li data-target="#carousel-example-generic-1" data-slide-to="0" class="active"></li>
+                  {/*<ol className="carousel-indicators bottom-10">
+              <li data-target="#carousel-example-generic-1" data-slide-to="0" className="active"></li>
               <li data-target="#carousel-example-generic-1" data-slide-to="1"></li>
             </ol>*/}
                   {/* Wrapper for slides */}
@@ -263,9 +263,9 @@ function Home() {
                               </div>
                             </div>
                           </div>
-                          {/*<div class="col-sm-4 col-lg-4 col-md-4 wow zoomIn animated delay-03">
-                      <div class="thumbnail"> <img src="images/courses/courses-img3.jpg" alt="" class="img-responsive">
-                        <div class="caption">
+                          {/*<div className="col-sm-4 col-lg-4 col-md-4 wow zoomIn animated delay-03">
+                      <div className="thumbnail"> <img src="images/courses/courses-img3.jpg" alt="" className="img-responsive">
+                        <div className="caption">
                           <h4>Khoá học dành cho người mới bắt đầu</h4>
                           <p>Khoá học dành cho người mới bắt đầu được thiết kế cho những học viên trẻ, những sinh viên còn đang trong giảng đường đại học hoặc vừa tốt nghiệp và muốn khám phá và bắt đầu từ những bước đi đầu tiên trong lĩnh vực Công Nghệ Thông Tin.</p>
                           <p><a href="career-starter.php">Xem them...</a></p>
@@ -367,7 +367,7 @@ function Home() {
             <div
               id="myCarousel-2"
               className="carousel slide carousel-dark no-margin"
-              data-ride="carousel"
+              data-bs-ride="carousel"
             >
               {/* Indicators */}
               <div className="carousel-inner">
@@ -806,28 +806,28 @@ function Home() {
                 </div>
               </div>
               <button
-                class="carousel-control-prev"
+                className="carousel-control-prev"
                 type="button"
                 data-bs-target="#myCarousel-2"
                 data-bs-slide="prev"
               >
                 <span
-                  class="carousel-control-prev-icon"
+                  className="carousel-control-prev-icon"
                   aria-hidden="true"
                 ></span>
-                <span class="visually-hidden">Previous</span>
+                <span className="visually-hidden">Previous</span>
               </button>
               <button
-                class="carousel-control-next"
+                className="carousel-control-next"
                 type="button"
                 data-bs-target="#myCarousel-2"
                 data-bs-slide="next"
               >
                 <span
-                  class="carousel-control-next-icon"
+                  className="carousel-control-next-icon"
                   aria-hidden="true"
                 ></span>
-                <span class="visually-hidden">Next</span>
+                <span className="visually-hidden">Next</span>
               </button>
             </div>
           </div>
@@ -845,7 +845,7 @@ function Home() {
             <div
               id="myCarousel-3"
               className="carousel slide carousel-dark no-margin"
-              data-ride="carousel"
+              data-bs-ride="carousel"
             >
               {/* Indicators */}
               <div className="carousel-inner">
@@ -875,7 +875,7 @@ function Home() {
                                   />
                                   Lương Thị Anh Vũ
                                   <br />
-                                  {/*<i class="fa fa-map-marker" aria-hidden="true"></i> FPT HCMC*/}
+                                  {/*<i className="fa fa-map-marker" aria-hidden="true"></i> FPT HCMC*/}
                                 </div>
                               </div>
                             </div>
@@ -911,7 +911,7 @@ function Home() {
                                   />
                                   Lê Anh Quân
                                   <br />
-                                  {/*<i class="fa fa-map-marker" aria-hidden="true"></i> BK Aptech*/}
+                                  {/*<i className="fa fa-map-marker" aria-hidden="true"></i> BK Aptech*/}
                                 </div>
                               </div>
                             </div>
@@ -949,7 +949,7 @@ function Home() {
                                   />
                                   Phạm Nhật Trường
                                   <br />
-                                  {/*<i class="fa fa-map-marker" aria-hidden="true"></i> BK Aptech*/}
+                                  {/*<i className="fa fa-map-marker" aria-hidden="true"></i> BK Aptech*/}
                                 </div>
                               </div>
                             </div>
@@ -986,7 +986,7 @@ function Home() {
                                   />
                                   Lê Quang Hiệu
                                   <br />
-                                  {/*<i class="fa fa-map-marker" aria-hidden="true"></i> BK Aptech*/}
+                                  {/*<i className="fa fa-map-marker" aria-hidden="true"></i> BK Aptech*/}
                                 </div>
                               </div>
                             </div>
@@ -1026,7 +1026,7 @@ function Home() {
                                   />
                                   Nguyễn Khánh Minh
                                   <br />
-                                  {/*<i class="fa fa-map-marker" aria-hidden="true"></i> Hue Aptech*/}
+                                  {/*<i className="fa fa-map-marker" aria-hidden="true"></i> Hue Aptech*/}
                                 </div>
                               </div>
                             </div>
@@ -1059,7 +1059,7 @@ function Home() {
                                   />
                                   Dương Viết Cường
                                   <br />
-                                  {/*<i class="fa fa-map-marker" aria-hidden="true"></i> Hue Aptech*/}
+                                  {/*<i className="fa fa-map-marker" aria-hidden="true"></i> Hue Aptech*/}
                                 </div>
                               </div>
                             </div>
@@ -1099,7 +1099,7 @@ function Home() {
                                   />
                                   Ngô Thu Huyền
                                   <br />
-                                  {/*<i class="fa fa-map-marker" aria-hidden="true"></i> Hue Aptech*/}
+                                  {/*<i className="fa fa-map-marker" aria-hidden="true"></i> Hue Aptech*/}
                                 </div>
                               </div>
                             </div>
@@ -1137,7 +1137,7 @@ function Home() {
                                   />
                                   Nguyễn Hữu Quang
                                   <br />
-                                  {/*<i class="fa fa-map-marker" aria-hidden="true"></i> Hue Aptech*/}
+                                  {/*<i className="fa fa-map-marker" aria-hidden="true"></i> Hue Aptech*/}
                                 </div>
                               </div>
                             </div>
@@ -1177,7 +1177,7 @@ function Home() {
                                   />
                                   Cao Anh Quân
                                   <br />
-                                  {/*<i class="fa fa-map-marker" aria-hidden="true"></i> Hue Aptech*/}
+                                  {/*<i className="fa fa-map-marker" aria-hidden="true"></i> Hue Aptech*/}
                                 </div>
                               </div>
                             </div>
@@ -1189,28 +1189,28 @@ function Home() {
                 </div>
               </div>
               <button
-                class="carousel-control-prev"
+                className="carousel-control-prev"
                 type="button"
                 data-bs-target="#myCarousel-3"
                 data-bs-slide="prev"
               >
                 <span
-                  class="carousel-control-prev-icon"
+                  className="carousel-control-prev-icon"
                   aria-hidden="true"
                 ></span>
-                <span class="visually-hidden">Previous</span>
+                <span className="visually-hidden">Previous</span>
               </button>
               <button
-                class="carousel-control-next"
+                className="carousel-control-next"
                 type="button"
                 data-bs-target="#myCarousel-3"
                 data-bs-slide="next"
               >
                 <span
-                  class="carousel-control-next-icon"
+                  className="carousel-control-next-icon"
                   aria-hidden="true"
                 ></span>
-                <span class="visually-hidden">Next</span>
+                <span className="visually-hidden">Next</span>
               </button>
             </div>
           </div>
@@ -1357,7 +1357,7 @@ function Home() {
                       <div className="input-group-text">
                         <i className="fa fa-globe" aria-hidden="true" />
                       </div>
-                      {/*<input type="text" class="form-control" name='country' id="country" placeholder='Thành phố bạn muốn mở trung tâm'/>*/}
+                      {/*<input type="text" className="form-control" name='country' id="country" placeholder='Thành phố bạn muốn mở trung tâm'/>*/}
                       <select
                         className="form-control"
                         name="cityDropDownList"
@@ -1470,7 +1470,7 @@ function Home() {
                         id="submitbtn"
                         name="submitbtn"
                         className="send"
-                        onclick="validationEnquiry();"
+                        onClick="validationEnquiry();"
                       >
                         <i className="fa fa-share" />
                         &nbsp;Gửi

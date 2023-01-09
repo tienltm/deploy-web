@@ -28,10 +28,10 @@ function HomepageSlider() {
           aria-label="Slide 3"
         ></button>
       </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
+      <div className="carousel-inner">
+        <div className="carousel-item active">
           <img
-            class="center-block"
+            className="center-block"
             width="100%"
             height="100%"
             aria-hidden="true"
@@ -41,9 +41,9 @@ function HomepageSlider() {
             alt=""
           />
         </div>
-        <div class="carousel-item">
+        <div className="carousel-item">
           <img
-            class="center-block"
+            className="center-block"
             width="100%"
             height="100%"
             aria-hidden="true"
@@ -53,9 +53,9 @@ function HomepageSlider() {
             alt=""
           />
         </div>
-        <div class="carousel-item">
+        <div className="carousel-item">
           <img
-            class="center-block"
+            className="center-block"
             width="100%"
             height="100%"
             aria-hidden="true"
