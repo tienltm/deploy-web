@@ -21,7 +21,7 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <a className="py-7 px-3 inline-block" href="#about">
+            <a className="py-7 px-3 inline-block" href="/#about">
               About
             </a>
           </li>

@@ -5,11 +5,20 @@ import { links } from './Mylinks'
 const NavLinks = () => {
   const [heading, setHeading] = useState('')
   const [subHeading, setSubHeading] = useState('')
+  // const [headLink, setHeadLink] = useState('')
+  // var link_des = headLink.replace(/\s/g, '')
+  // headLink = myStr.replace(/\s/g, "");
+  // var dest_link = ''
+  // dest_link = headLink.replace(/\s/g, '')
+
   return (
     <>
       {links.map((link) => (
         <div>
-          <div className="px-3 text-left md:cursor-pointer group">
+          <div
+            className="px-3 text-left md:cursor-pointer group"
+            onClick={() => {}}
+          >
             <h1
               className="py-7 flex justify-between items-center md:pr-0 pr-5 group"
               onClick={() => {
@@ -17,7 +26,18 @@ const NavLinks = () => {
                 setSubHeading('')
               }}
             >
-              {link.name}
+              <Link
+                to={'/' + link.name.replace(/\s/g, '')}
+                className="hover:text-primary"
+                // onClick={() => {
+                //   headLink !==
+                //     ? setHeadLink(link.name)
+                //     : setHeadLink('')
+                // }}
+              >
+                {link.name}
+              </Link>
+              {/* {link.name} */}
               {/* <a href={'#' + link.name}>{link.name}</a> */}
               <span className="text-xl md:hidden inline">
                 <ion-icon
@@ -42,7 +62,7 @@ const NavLinks = () => {
                   <div className="bg-indigo-50 p-5 grid grid-cols-3 gap-10">
                     {link.sublinks.map((mysublinks) => (
                       <div>
-                        <h1 className="text-lg font-semibold">
+                        <h1 className="text-lg font-semibold text-left">
                           {mysublinks.Head}
                         </h1>
                         {mysublinks.sublink.map((slink) => (

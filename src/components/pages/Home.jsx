@@ -1501,7 +1501,7 @@ function Home() {
         <div className="clearfix" />
       </div>
       {/* <Cards /> */}
-      {/* <Footer /> */}
+      <Footer />
     </>
   )
 }

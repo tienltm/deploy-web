@@ -6,62 +6,66 @@ export const links = [
       {
         Head: 'Topwear',
         sublink: [
-          { name: 'T-shirt', link: '/' },
-          { name: 'formal shirts', link: '/' },
+          { name: 'blog-1', link: '/' },
+          { name: 'blog-2', link: '/' },
         ],
       },
 
       {
         Head: 'innerwear',
         sublink: [
-          { name: 'T-shirt', link: '/' },
+          { name: 'blog-1', link: '/' },
 
-          { name: 'formal shirts', link: '/' },
+          { name: 'blog-2', link: '/' },
         ],
       },
 
       {
         Head: 'footwear',
         sublink: [
-          { name: 'T-shirt', link: '/' },
+          { name: 'blog-1', link: '/' },
 
-          { name: 'formal shirts', link: '/' },
+          { name: 'blog-2', link: '/' },
         ],
       },
     ],
   },
   {
-    name: 'NEWS',
+    name: 'blog',
     submenu: true,
     sublinks: [
       {
-        Head: 'Topwear',
+        Head: 'Tech',
         sublink: [
-          { name: 'T-shirt', link: '/' },
+          { name: 'blog-1', link: '/article_1' },
 
-          { name: 'formal shirts', link: '/' },
+          { name: 'blog-2', link: '/article_2' },
         ],
       },
 
       {
-        Head: 'innerwear',
+        Head: 'News',
         sublink: [
-          { name: 'T-shirt', link: '/' },
+          { name: 'blog-3', link: '/article_3' },
 
-          { name: 'formal shirts', link: '/' },
+          { name: 'blog-4', link: '/article_4' },
         ],
       },
 
       {
-        Head: 'footwear',
+        Head: 'trending',
         sublink: [
-          { name: 'T-shirt', link: '/' },
-          { name: 'Casual shirts', link: '/' },
+          { name: 'blog-5', link: '/article_5' },
 
-          { name: 'formal shirts', link: '/' },
+          { name: 'blog-2', link: '/article_6' },
         ],
       },
     ],
+  },
+  {
+    name: 'search',
+    submenu: false,
+    sublinks: [],
   },
   {
     name: 'Our Story',
@@ -70,26 +74,26 @@ export const links = [
       {
         Head: 'Topwear',
         sublink: [
-          { name: 'T-shirt', link: '/' },
+          { name: 'blog-1', link: '/' },
 
-          { name: 'formal shirts', link: '/' },
+          { name: 'blog-2', link: '/' },
         ],
       },
 
       {
         Head: 'innerwear',
         sublink: [
-          { name: 'T-shirt', link: '/' },
+          { name: 'blog-1', link: '/' },
 
-          { name: 'formal shirts', link: '/' },
+          { name: 'blog-2', link: '/' },
         ],
       },
 
       {
         Head: 'footwear',
         sublink: [
-          { name: 'T-shirt', link: '/' },
-          { name: 'formal shirts', link: '/' },
+          { name: 'blog-1', link: '/' },
+          { name: 'blog-2', link: '/' },
         ],
       },
     ],

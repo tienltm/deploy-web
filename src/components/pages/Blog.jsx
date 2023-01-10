@@ -13,7 +13,7 @@ function Blog() {
         </section>
         <div className="content-list">
           <div className="content-item">
-            <Link to="/article-1">
+            <Link to="/article_1">
               <div className="content-img">
                 <img
                   src="https://kodesolution.com/wp-content/uploads/2022/10/news1-672x448.jpg"
@@ -37,7 +37,7 @@ function Blog() {
             </Link>
           </div>
           <div className="content-item">
-            <Link to="/article-2">
+            <Link to="/article_2">
               <div className="content-img">
                 <img
                   src="https://kodesolution.com/wp-content/uploads/2022/10/news2-672x448.jpg"
@@ -61,7 +61,7 @@ function Blog() {
             </Link>
           </div>
           <div className="content-item">
-            <Link to="/article-3">
+            <Link to="/article_3">
               <div className="content-img">
                 <img
                   src="https://kodesolution.com/wp-content/uploads/2022/10/news3-672x448.jpg"
@@ -85,7 +85,7 @@ function Blog() {
             </Link>
           </div>
           <div className="content-item">
-            <Link to="/article-4">
+            <Link to="/article_4">
               <div className="content-img">
                 <img
                   src="https://kodesolution.com/wp-content/uploads/2022/10/news4-672x448.jpg"
@@ -109,7 +109,7 @@ function Blog() {
             </Link>
           </div>
           <div className="content-item">
-            <Link to="/article-5">
+            <Link to="/article_5">
               <div className="content-img">
                 <img
                   src="https://kodesolution.com/wp-content/uploads/2022/10/news5-672x448.jpg"
@@ -133,7 +133,7 @@ function Blog() {
             </Link>
           </div>
           <div className="content-item">
-            <Link to="/article-6">
+            <Link to="/article_6">
               <div className="content-img">
                 <img
                   src="https://kodesolution.com/wp-content/uploads/2022/10/news6-672x448.jpg"

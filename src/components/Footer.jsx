@@ -8,7 +8,7 @@ function Footer() {
     <div className="footer-container">
       <section className="footer-subscription">
         <p className="footer-subscription-heading">
-          Join the Adventure newsletter to receive our best vacation deals
+          Join the Our newsletter to receive our best course deals
         </p>
         <p className="footer-subscription-text">
           You can unsubscribe at any time.
@@ -29,7 +29,7 @@ function Footer() {
         <div className="footer-link-wrapper">
           <div className="footer-link-items">
             <h2>About Us</h2>
-            <Link to="/sign-up">How it works</Link>
+            <Link to="/">How it works</Link>
             <Link to="/">Testimonials</Link>
             <Link to="/">Careers</Link>
             <Link to="/">Investors</Link>
@@ -64,7 +64,7 @@ function Footer() {
         <div className="social-media-wrap">
           <div className="footer-logo">
             <Link to="/" className="social-logo">
-              TRVL
+              Aptech
               <i className="fab fa-typo3" />
             </Link>
           </div>

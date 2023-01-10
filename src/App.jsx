@@ -19,6 +19,7 @@ import Article_3 from './components/Pages/Article/Article3'
 import Article_4 from './components/Pages/Article/Article4'
 import Article_5 from './components/Pages/Article/Article5'
 import Article_6 from './components/Pages/Article/Article6'
+import Ourstory from './components/Pages/Ourstory'
 
 function App() {
   return (
@@ -36,12 +37,13 @@ function App() {
             <Route path="/contact" element={<Contact />} />
 
             <Route path="/blog" element={<Blog />} />
-            <Route path="/article-1" element={<Article_1 />} />
-            <Route path="/article-2" element={<Article_2 />} />
-            <Route path="/article-3" element={<Article_3 />} />
-            <Route path="/article-4" element={<Article_4 />} />
-            <Route path="/article-5" element={<Article_5 />} />
-            <Route path="/article-6" element={<Article_6 />} />
+            <Route path="/article_1" element={<Article_1 />} />
+            <Route path="/article_2" element={<Article_2 />} />
+            <Route path="/article_3" element={<Article_3 />} />
+            <Route path="/article_4" element={<Article_4 />} />
+            <Route path="/article_5" element={<Article_5 />} />
+            <Route path="/article_6" element={<Article_6 />} />
+            <Route path="/ourstory" element={<Ourstory />} />
             <Route path="services" element={<Services />}>
               {/* <Route path="page1" element={<Page1 />} />
               <Route path="course" element={<Page2 />} />
