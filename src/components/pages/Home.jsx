@@ -19,25 +19,26 @@ function Home() {
           <div className="container">
             <div className="row">
               <h2 className="wow wow fadeInDown animated delay-01">
-                Thông tin về Aptech
+                About Aptech
               </h2>
               <div className="wrap-title" />
               <p className="lead wow fadeInUp animated delay-02">
-                Aptech là công ty đi tiên phong trong lĩnh vực đào tạo Công Nghệ
-                Thông Tin và Truyền Thông Đa Phương Tiện, là công ty giáo dục
-                nghề nghiệp toàn cầu hàng đầu thế giới có trụ sở tại Mumbai, Ấn
-                Độ. Chúng tôi đã có kinh nghiệm đào tạo từ năm 1986.
+                Aptech is a pioneer in the field of Technology training
+                Information and Multimedia, is an education company world
+                leading global careers based in Mumbai, India Degree. We have
+                had training experience since 1986.
               </p>
               <p className="lead wow fadeInUp animated delay-03">
-                Với các trung tâm có mặt rộng khắp tại Việt Nam, Aptech thực sự
-                đã trở thành một trung tâm đào tạo uy tín theo chuẩn quốc tế.
+                With centers widely present in Vietnam, Aptech really has become
+                a prestigious training center according to international
+                standards.
                 <br />
-                Từ Hà Nội tới Thành phố Hồ Chí Minh. Vì vậy dẫu bạn đang ở đâu
-                thì Aptech luôn nằm trong tầm tay của bạn. Tất cả các trung tâm
-                Aptech tại Việt Nam đều phù hợp với các tiêu chuẩn quốc tế.
-                Ngoài phương thức đào tạo được giảng viên hướng dẫn trực tiếp,
-                thì ở các trung tâm đều áp dụng đào tạo trực tuyến và kiểm tra
-                trực tuyến.
+                From Hanoi to Ho Chi Minh City. So no matter where you are
+                Aptech is always at your fingertips. All centers Aptech in
+                Vietnam are in line with international standards. In addition to
+                the training method directly guided by the instructor, All
+                centers apply online training and testing online.
+                <br />
               </p>
             </div>
             <div className="clearfix" />
@@ -49,7 +50,7 @@ function Home() {
                 <h3 className="wow fadeInLeft animated delay-03">
                   32
                   <br />
-                  năm
+                  year
                 </h3>
               </div>
               <div className="col-xs-4 col-sm-4 col-lg-4 col-md-4 text-center">
@@ -59,7 +60,7 @@ function Home() {
                 <h3 className="wow fadeInLeft animated delay-04">
                   40
                   <br />
-                  quốc gia
+                  nation
                 </h3>
               </div>
               <div className="col-xs-4 col-sm-4 col-lg-4 col-md-4 text-center">
@@ -69,18 +70,18 @@ function Home() {
                 <h3 className="wow fadeInLeft animated delay-05">
                   1,350
                   <br />
-                  trung tâm
+                  center
                 </h3>
               </div>
             </div>
             <div className="clearfix" />
             <p className="lead wow fadeInUp animated delay-05 margin20">
-              Aptech luôn tin rằng có thể khai phá được tiềm năng của mỗi học
-              viên và mang sứ mệnh chắp cánh cho hàng triệu chuyên gia ngành
-              CNTT cho những doanh nghiệp hàng đầu thế giới. Dựa trên các giáo
-              trình cập nhật mới nhất với xu thế công nghệ thế giới, Aptech luôn
-              dẫn đầu về việc giáo dục và đào tạo các khoá học từ sơ cấp đến
-              chuyên nghiệp.
+              Aptech always believes that it is possible to unlock the potential
+              of each student members and bring the mission to give wings to
+              millions of industry professionals IT for the world's leading
+              businesses. Based on the teachers Latest update with world
+              technology trends, Aptech always Leading the way in education and
+              training courses from elementary to professionally.
             </p>
           </div>
         </div>
@@ -94,14 +95,15 @@ function Home() {
                     <img src="img/icon-sm1.png" alt="" className="stroke" />
                   </span>
                   <h4 className="ui-title-inner decor decor_mod-a">
-                    Chất Lượng Đào Tạo
+                    Education quality
                   </h4>
                 </div>
                 <p>
-                  Aptech liên tục nâng cao &amp; tăng cường chất lượng đào tạo
+                  Aptech is continuously improving &amp; improve the quality of
+                  training
                 </p>
                 <p>
-                  <a href="quality-education.php.html">Xem them...</a>
+                  <a href="/">Read More...</a>
                 </p>
               </div>
               <div className="col-sm-6 col-lg-3 col-md-3 wow fadeInLeft animated delay-02">
@@ -110,15 +112,15 @@ function Home() {
                     <img src="img/icon-sm2.png" alt="" className="stroke" />
                   </span>
                   <h4 className="ui-title-inner decor decor_mod-a">
-                    Ngành CNTT
+                    IT industry
                   </h4>
                 </div>
                 <p>
-                  Bạn mơ ước làm việc trong lĩnh vực CNTT? Hãy nắm vững những
-                  kiến thức cơ bản về ngành này:
+                  Do you dream of working in the IT field? Take hold of the
+                  Basic knowledge of this industry:
                 </p>
                 <p>
-                  <a href="it-industry.php.html">Xem them...</a>
+                  <a href="it-industry.php.html">Read More...</a>
                 </p>
               </div>
               <div className="col-sm-6 col-lg-3 col-md-3 wow fadeInLeft animated delay-03">
@@ -127,16 +129,15 @@ function Home() {
                     <img src="img/icon-sm3.png" alt="" className="stroke" />
                   </span>
                   <h4 className="ui-title-inner decor decor_mod-a">
-                    Sự Nghiệp CNTT
+                    IT Career
                   </h4>
                 </div>
                 <p>
-                  Ngành CNTT là ngành công nghiệp khổng lồ và đang tiếp tục mở
-                  rộng. Với chuyên môn công nghệ, bạn có thể gây dựng sự nghiệp
-                  lớn mạnh trên toàn thế giới.
+                  The IT industry is huge and continues to open wide. With tech
+                  expertise, you can build a career growing around the world.
                 </p>
                 <p>
-                  <a href="it-careers.php.html">Xem them...</a>
+                  <a href="it-careers.php.html">Read More...</a>
                 </p>
               </div>
               <div className="col-sm-6 col-lg-3 col-md-3 wow fadeInLeft animated delay-04">
@@ -145,15 +146,15 @@ function Home() {
                     <img src="img/icon-sm4.png" alt="" className="stroke" />
                   </span>
                   <h4 className="ui-title-inner decor decor_mod-a">
-                    Cổng học trực tuyến
+                    Online learning portal
                   </h4>
                 </div>
                 <p>
-                  Cổng thông tin học tập online 24giờ /7 ngày, truy nhật bất cứ
-                  nơi nào, nền tảng nào và bất cứ lúc nào.
+                  Online learning portal 24 hours / 7 days, access any any
+                  place, any platform and any time.
                 </p>
                 <p>
-                  <a href="#courses">Xem them...</a>
+                  <a href="#courses">Read More...</a>
                 </p>
               </div>
             </div>
@@ -166,7 +167,7 @@ function Home() {
         <div className="full-bg-lite" id="course">
           <div className="container">
             <div className="row">
-              <h2 className="wow fadeInDown animated">Các khoá học</h2>
+              <h2 className="wow fadeInDown animated">Course</h2>
               <div className="wrap-title" />
               <div className="container content">
                 <div
@@ -192,21 +193,22 @@ function Home() {
                                 className="img-responsive"
                               />
                               <div className="caption">
-                                <h4>Chương trình ACN Pro</h4>
+                                <h4>Program ACN Pro</h4>
                                 <p>
                                   Aptech Certified Next-Generation Professional
-                                  (ACN Pro) chính là chương trình dành cho tương
-                                  lai. Chương trình sẽ đào tạo các công nghệ của
-                                  thế hệ mới – như: trí tuệ nhân tạo, machine
-                                  learning, deep learning, kiểm tra phần mềm và
-                                  nhiều hơn nữa. Chương trình cũng sẽ đào tạo
-                                  bạn về lập trình python, R Programming, Thống
-                                  kê, v.v.. để giúp bạn trở thành một chuyên gia
-                                  sẵn sàng cho sự nghiệp tương lai.
+                                  (ACN Pro) is the program for the future
+                                  future. The program will train the
+                                  technologies of new generation – such as:
+                                  artificial intelligence, machine learning,
+                                  deep learning, software testing and more and
+                                  more. The program will also train you about
+                                  programming python, R Programming, Mini
+                                  millet, etc. to help you become an expert Get
+                                  ready for your future career.
                                 </p>
                                 <p>
                                   <a href="acnpro-course.php.html">
-                                    Xem them...
+                                    Read More...
                                   </a>
                                 </p>
                               </div>
@@ -221,17 +223,19 @@ function Home() {
                               />
                               <div className="caption">
                                 <h4>
-                                  Chương trình đào tạo Lập Trình Viên Quốc Tế
+                                  International Programmer Training Program
                                 </h4>
                                 <p>
-                                  Đào tạo toàn diện cung cấp những kiến thức từ
-                                  nền tảng đến nâng cao về lập trình, quản trị
-                                  cơ sở dữ liệu, phát triển ứng dụng, dữ liệu
-                                  lớn, điện toán đám mây và kinh nghiệm thực tế
-                                  từ các dự án eProject
+                                  Comprehensive training provides knowledge from
+                                  foundation to advanced in programming,
+                                  administration database, application
+                                  development, data big, cloud computing and
+                                  real experience from eProject projects
                                 </p>
                                 <p>
-                                  <a href="accp-course.php.html">Xem them...</a>
+                                  <a href="accp-course.php.html">
+                                    Read More...
+                                  </a>
                                 </p>
                               </div>
                             </div>
@@ -245,19 +249,20 @@ function Home() {
                               />
                               <div className="caption">
                                 <h4>
-                                  Chương trình đào tạo Lập Trình Viên Song Bằng
-                                  Quốc Tế (ACCP - L5 DC)
+                                  Parallel Programmer Training Program
+                                  International (ACCP - L5 DC)
                                 </h4>
                                 <p>
-                                  Aptech liên kết cùng NCC UK đào tạo song hành
-                                  thực tế, cung cấp cho sinh viên cơ hội nhận
-                                  bằng ADSE (do Aptech Ấn Độ cấp) Và L5 DC (do
-                                  NCC Anh Quốc cấp), mở ra cơ hội học liên thông
-                                  60 trường đại học trên khắp thế giới
+                                  Aptech cooperates with NCC UK for parallel
+                                  training practical, provide students with the
+                                  opportunity to receive by ADSE (granted by
+                                  Aptech India) and L5 DC (issued by NCC UK),
+                                  opens the opportunity to study continuously 60
+                                  universities around the world
                                 </p>
                                 <p>
                                   <a href="accp-ncc-course.php.html">
-                                    Xem them...
+                                    Read More...
                                   </a>
                                 </p>
                               </div>
@@ -268,7 +273,7 @@ function Home() {
                         <div className="caption">
                           <h4>Khoá học dành cho người mới bắt đầu</h4>
                           <p>Khoá học dành cho người mới bắt đầu được thiết kế cho những học viên trẻ, những sinh viên còn đang trong giảng đường đại học hoặc vừa tốt nghiệp và muốn khám phá và bắt đầu từ những bước đi đầu tiên trong lĩnh vực Công Nghệ Thông Tin.</p>
-                          <p><a href="career-starter.php">Xem them...</a></p>
+                          <p><a href="career-starter.php">Read More...</a></p>
                         </div>
                       </div>
                                         </div>*/}
@@ -309,14 +314,14 @@ function Home() {
                   />
                 </h2>
                 <p className="wow fadeInUp animated delay-03">
-                  Cổng học trực tuyến là một cổng thông tin học tập độc quyền
-                  với một 24x7 truy cập từ bất cứ nơi nào, nền tảng nào, bất cứ
-                  lúc nào và bất cứ nơi nào.
+                  The e-learning portal is an exclusive learning portal with a
+                  24x7 access from anywhere, any platform, anywhere anytime and
+                  anywhere.
                 </p>
                 <p className="wow fadeInUp animated delay-03">
-                  Cổng này cung cấp các công cụ tương tác, các nguồn tài nguyên
-                  có giá trị, chuyên gia tư vấn và hướng dẫn để nâng cao kỹ năng
-                  của sinh viên bên ngoài lớp học.
+                  This portal provides interactive tools, resources Valuable,
+                  expert advice and guidance to improve skills of students
+                  outside the classroom.
                 </p>
               </div>
               <div className="margin20">
@@ -324,31 +329,31 @@ function Home() {
                   <div className="col-sm-2 col-lg-2 col-md-2 text-center wow fadeInDown animated delay-04">
                     <figure>
                       <img src="img/icon-onlinever1.png" alt="" />
-                      <figcaption>Bài giảng trực tuyến</figcaption>
+                      <figcaption>Online lectures</figcaption>
                     </figure>
                   </div>
                   <div className="col-sm-2 col-lg-2 col-md-2 text-center wow fadeInDown animated delay-05">
                     <img src="img/icon-onlinever2.png" alt="" />
                     <figure>
-                      <figcaption>Đăng nhập 24/7</figcaption>
+                      <figcaption>Login 24/7</figcaption>
                     </figure>
                   </div>
                   <div className="col-sm-2 col-lg-2 col-md-2 text-center wow fadeInDown animated delay-06">
                     <img src="img/icon-onlinever3.png" alt="" />
                     <figure>
-                      <figcaption>Bấm Go để học</figcaption>
+                      <figcaption>Click Go to learn</figcaption>
                     </figure>
                   </div>
                   <div className="col-sm-2 col-lg-2 col-md-2 text-center wow fadeInDown animated delay-07">
                     <img src="img/icon-onlinever4.png" alt="" />
                     <figure>
-                      <figcaption>Chứng nhận</figcaption>
+                      <figcaption>Certifications</figcaption>
                     </figure>
                   </div>
                   <div className="col-sm-2 col-lg-2 col-md-2 text-center wow fadeInDown animated delay-08">
                     <img src="img/icon-onlinever5.png" alt="" />
                     <figure>
-                      <figcaption>Hướng dẫn</figcaption>
+                      <figcaption>Guide</figcaption>
                     </figure>
                   </div>
                 </div>
@@ -362,7 +367,7 @@ function Home() {
       <section className="full-bg-lite" id="tech">
         <div className="container">
           <div className="row">
-            <h2 className="wow fadeInDown animated">Trung tâm công nghệ</h2>
+            <h2 className="wow fadeInDown animated">Technology Center</h2>
             <div className="wrap-title" />
             <div
               id="myCarousel-2"
@@ -386,40 +391,40 @@ function Home() {
                     </div>
                     <div className="col-md-7 wow fadeInRightBig animated">
                       <div>
-                        <h3 className="margin20">Dữ liệu lớn</h3>
+                        <h3 className="margin20">Big Data</h3>
                         <input
                           type="checkbox"
                           className="read-more-state"
                           id="post-1"
                         />
                         <div className="read-more-wrap slider-text">
-                          Dữ liệu lớn liên quan đến một tập hợp đặc biệt lớn của
-                          dữ liệu được xử lý bởi máy tính để đưa ra các xu
-                          hướng, kiểu mẫu, nhận định. Sử dụng đúng công cụ Dữ
-                          liệu lớn chúng ta có thể lưu giữ, quản lý, phân tích
-                          dữ liệu để nắm được những thông tin quý giá. Theo
+                          Big data involves a particularly large set of The data
+                          is processed by the computer to produce the coins
+                          direction, pattern, judgment. Using the right Data
+                          tools large data can we store, manage, analyze data to
+                          capture valuable information. According to the
                           Gartner,
                           <span className="read-more-target">
-                            Dữ liệu lớn tiêu biểu cho tập thông tin mà đặc điểm
-                            như khối lượng lớn (Volume), tốc độ cao (Velocity)
-                            và đa dạng (Variety) để yêu cầu phương thức phân
-                            tích và công nghệ riêng biệt để biến nó thành có giá
-                            trị. 3Vs đã được mở rộng để bổ sung đặc tính của dữ
-                            liệu lớn.
+                            Big data represents an information set whose
+                            characteristics such as large volume (Volume), high
+                            speed (Velocity) and variety (Variety) to require
+                            the method of distribution separate analysis and
+                            technology to make it valuable treat. 3Vs has been
+                            extended to add data properties whether big.
                             <ul>
                               <li>
-                                Volume: Khối lượng - dữ liệu lớn không có mẫu;
-                                nó chỉ thực hiện và lần theo những gì diễn ra
+                                Volume: Volume - big data without samples; it
+                                just executes and tracks what happens
                               </li>
                               <li>
-                                Velocity: Tốc độ - dữ liệu lớn thường được xử lý
-                                thời gian thực
+                                Velocity: Speed - big data is often processed
+                                real time
                               </li>
                               <li>
-                                Variety: Đa dạng - dữ liệu lớn có thể thu thập
-                                từ văn bản, hình ảnh, âm thanh, video, cộng với
-                                nó hoàn thành các phần dữ liệu thiếu thông qua
-                                tổng hợp dữ liệu
+                                Variety: Diversity - big data can be collected
+                                from text, images, audio, video, plus it
+                                completes the missing data pieces through Data
+                                synthesis
                               </li>
                             </ul>
                           </span>
@@ -444,20 +449,22 @@ function Home() {
                     </div>
                     <div className="col-md-6">
                       <div>
-                        <h3 className="margin20">Hacker mũ trắng</h3>
+                        <h3 className="margin20">White Hat Hacker</h3>
                         <input
                           type="checkbox"
                           className="read-more-state"
                           id="post-2"
                         />
                         <div className="read-more-wrap slider-text">
-                          Hacker mũ trắng liên quan đến việc tìm ra sơ hở và lỗ
-                          hổng của máy tính và hệ thống thông tin bằng cách nhân
-                          bản ý đồ và hành động của tin tặc.
+                          White hat hackers are concerned with finding loopholes
+                          and holes vulnerabilities of computers and information
+                          systems by multiplying hackers' intentions and
+                          actions.
                           <span className="read-more-target">
-                            Một hacker mũ trắng là một chuyên gia bảo mật, những
-                            người áp dụng các kỹ năng hacking của họ cho các mục
-                            đích phòng thủ, bảo vệ an ninh mạng cho các tổ chức.
+                            A white hat hacker is a security expert who who
+                            apply their hacking skills to items defense
+                            purposes, protecting network security for
+                            organizations.
                           </span>
                         </div>
                         <label htmlFor="post-2" className="read-more-trigger" />
@@ -487,26 +494,29 @@ function Home() {
                           id="post-3"
                         />
                         <div className="read-more-wrap slider-text">
-                          Internet of Things liên quan đến một mạng lưới những
-                          đồ vật/thiết bị có khả năng truyền tải, trao đổi thông
-                          tin, dữ liệu qua một mạng duy nhất mà không cần đến sự
-                          tương tác trực tiếp giữa người với người, hay người
-                          với máy tính. IoT đã phát triển từ sự hội tụ của công
-                          nghệ không dây,
+                          The Internet of Things involves a network of
+                          objects/devices capable of transmitting and exchanging
+                          information information and data over a single network
+                          without the need for direct person-to-person
+                          interaction, or person With computer. IoT has evolved
+                          from the convergence of technology wireless
+                          technology,
                           <span className="read-more-target">
-                            công nghệ vi cơ điện tử và Internet. Nói đơn giản là
-                            một tập hợp các thiết bị có khả năng kết nối với
-                            nhau, với Internet và với thế giới bên ngoài để thực
-                            hiện một công việc nào đó. Nó có thể là điện thoại,
-                            máy pha cà phê, máy giặt, tai nghe, đèn ngủ, thiết
-                            bị đeo và bất cứ thứ gì mà bạn có thể nghĩ đến.
+                            micro-mechanical technology and the Internet. Simply
+                            put a set of devices capable of connecting to each
+                            other, with the Internet, and with the outside world
+                            in order to do some work. It could be a phone,
+                            coffee machine, washing machine, headphones, night
+                            light, appliances wearable and anything you can
+                            think of.
                             <br />
                             <br />
-                            Theo Gartner, Inc. (một công ty nghiên cứu và tư vấn
-                            công nghệ), sẽ có gần 26 tỷ thiết bị trên IoT vào
-                            năm 2020. IoT sẽ là một nền tảng để tạo ra liên kết
-                            giữa thế giới thực và hệ thống máy tính, gia tăng
-                            hiệu quả và giảm sự can thiệp của con người.
+                            According to Gartner, Inc. (a research and
+                            consulting firm technology), there will be nearly 26
+                            billion devices on IoT by 2020. IoT will be a
+                            platform for creating links between the real world
+                            and the computer system, increasing efficiency and
+                            reduced human intervention.
                           </span>
                         </div>
                         <label htmlFor="post-3" className="read-more-trigger" />
@@ -530,7 +540,7 @@ function Home() {
                     <div className="col-md-6">
                       <div>
                         <h3 className="margin20">
-                          Thám tử máy tính - Cyber Forensics
+                          Cyber Forensics - Cyber Forensics
                         </h3>
                         <input
                           type="checkbox"
@@ -538,18 +548,18 @@ function Home() {
                           id="post-4"
                         />
                         <div className="read-more-wrap slider-text">
-                          Cyber Forensics là một ngành khoa học điều tra công
-                          nghệ cao dựa trên các dữ liệu được lưu trữ trên các
-                          thiết bị máy tính như ổ cứng, ổ CD, hay các dữ liệu
-                          trên mạng Internet. Mục đích của kỹ thuật này là tìm
-                          kiếm và phân tích các dữ liệu trên máy tính, phục vụ
-                          cho công tác điều tra tội phạm công
+                          Cyber Forensics is a public investigative science high
+                          technology based on the data stored on the computer
+                          devices such as hard drives, CD drives, or data on the
+                          Intenet. The purpose of this technique is to find
+                          Search and analyze data on computers, serve for the
+                          investigation of public crimes
                           <span className="read-more-target">
-                            nghệ cao (tin tặc, thông tin tài chính công ty đã bị
-                            xóa…), hiểu được chính xác điều gì đã xảy ra với các
-                            thiết bị điện toán và ai chịu trách nhiệm về nó, từ
-                            đó giúp cho tòa án có được những bằng chứng tội phạm
-                            kỹ thuật số chính xác nhất.
+                            high technology (hackers, company financial
+                            information has been delete…), understand exactly
+                            what happened to the computing device and who is
+                            responsible for it, from That helps the court get
+                            the criminal evidence The most accurate digital.
                           </span>
                         </div>
                         <label htmlFor="post-4" className="read-more-trigger" />
@@ -579,26 +589,26 @@ function Home() {
                           id="post-5"
                         />
                         <div className="read-more-wrap slider-text">
-                          .NET Framework là một nền tảng lập trình và cũng là
-                          một nền tảng thực thi ứng dụng chủ yếu trên hệ điều
-                          hành Microsoft Windows được phát triển bởi Microsoft.
-                          .NET framework bao gồm:
+                          .NET Framework is a programming platform and also a an
+                          operating system-based application execution platform
+                          Microsoft Windows operating system is developed by
+                          Microsoft. The .NET framework includes:
                           <span className="read-more-target">
                             <ul>
                               <li>
-                                Common Language Runtime – Môi trường phần mềm
-                                này là một máy ảo trong đó cung cấp các dịch vụ
-                                như an ninh phần mềm, quản lý bộ nhớ, và các xử
-                                lý lỗi ngoại lệ.
+                                Common Language Runtime – Software environment
+                                This is a virtual machine which provides
+                                services such as software security, memory
+                                management, and exception error handling.
                               </li>
                               <li>
-                                Base Class Libraries – Mã dựng sẵn cho các tác
-                                vụ lập trình thấp
+                                Base Class Libraries – Built-in code for works
+                                low programming service
                               </li>
                               <li>
-                                Development frameworks and technologies – Giải
-                                pháp tùy biến, sử dụng lại cho các tác vụ lập
-                                trình lớn hơn
+                                Development frameworks and technologies –
+                                Solution Customizable, reusable methods for
+                                programming tasks larger program
                               </li>
                             </ul>
                           </span>
@@ -623,41 +633,41 @@ function Home() {
                     </div>
                     <div className="col-md-6">
                       <div>
-                        <h3 className="margin20">Điện toán đám mây</h3>
+                        <h3 className="margin20">Cloud Computing</h3>
                         <input
                           type="checkbox"
                           className="read-more-state"
                           id="post-6"
                         />
                         <div className="read-more-wrap slider-text">
-                          Điện toán đám mây là cơn sốt mới nhất trong thế giới
-                          công nghệ. Nói một cách đơn giản nhất, điện toán đám
-                          mây bao gồm các tài nguyên máy tính chia sẻ được ảo
-                          hóa và truy cập như là một dịch vụ, thông qua một API.
-                          Đám mây cho phép người dùng trong một tổ chức chạy ứng
-                          dụng bằng cách
+                          Cloud computing is the latest craze in the world
+                          technology. In the simplest terms, cloud computing The
+                          cloud consists of virtual shared computing resources
+                          and accessed as a service, through an API. The cloud
+                          allows users in an organization to run applications
+                          use by
                           <span className="read-more-target">
-                            triển khai chúng vào đám mây là một trung tâm dữ
-                            liệu ảo.
+                            deploying them to the cloud is a data center virtual
+                            material.
                             <br />
                             <br />
-                            Trong một hệ thống máy tính đám mây, có một sự thay
-                            đổi khối lượng công việc đáng kể. Các máy tính cục
-                            bộ không còn phải làm tất cả các tác vụ nặng khi
-                            chạy các ứng dụng. Mạng của các máy tính cấu thành
-                            nên đám mây sẽ làm điều đó. Yêu cầu phần cứng và
-                            phần mềm ở phía người dùng được giảm đáng kể. Điều
-                            duy nhất mà máy tính của người dùng cần để có thể
-                            chạy là phần mềm giao diện của hệ thống điện toán
-                            đám mây. Nó có thể đơn giản như một trình duyệt Web
-                            và mạng đám mây sẽ làm tất cả các công việc còn lại.
+                            In a cloud computing system, there is a change
+                            significant workload change. Local computers sets no
+                            longer have to do all the heavy lifting when run
+                            applications. Network of constituent computers so
+                            the cloud will do it. Hardware requirements and
+                            software on the user side is greatly reduced. Thing
+                            only the user's computer needs to be able to running
+                            is the interface software of the computing system
+                            cloud. It can be as simple as a Web browser and the
+                            cloud network will do all the rest.
                             <br />
                             <br />
-                            Tại sao có thể bỏ lỡ một công nghệ thú vị như thế
-                            này? Hãy trang bị cho mình những kiến thức toàn diện
-                            nhất về điện toán đám mây để tạo cho mình những ứng
-                            dụng độc nhất, đưa chúng lên đám mây và truy cập ở
-                            bất kì đâu.
+                            How could one miss such an exciting technology this?
+                            Equip yourself with comprehensive knowledge best in
+                            cloud computing to create your own applications
+                            unique applications, put them in the cloud and
+                            access anywhere.
                           </span>
                         </div>
                         <label htmlFor="post-6" className="read-more-trigger" />
@@ -687,28 +697,27 @@ function Home() {
                           id="post-7"
                         />
                         <div className="read-more-wrap slider-text">
-                          Java là một ngôn ngữ lập trình được sử dụng rộng rãi.
-                          Đây là ngôn ngữ lập trình phổ biến nhất được sử dụng
-                          với hơn 9 triệu nhà phát triển. Đó là một ngôn ngữ lập
-                          trình cao cấp được phát triển bởi Sun Microsystems.
-                          Java là một ngôn ngữ hướng đối tượng tương tự như C++,
-                          nhưng đơn giản hóa để loại bỏ các
+                          Java is a widely used programming language. This is
+                          the most commonly used programming language with over
+                          9 million developers. It's a programming language
+                          Advanced program developed by Sun Microsystems. Java
+                          is an object-oriented language similar to C++. but
+                          simplify to remove the
                           <span className="read-more-target">
-                            tính năng ngôn ngữ gây ra các lỗi lập trình phổ
-                            biến.
+                            language features that cause common programming
+                            errors variable.
                             <br />
                             <br />
-                            Có rất nhiều ứng dụng và trang web sẽ không hoạt
-                            động trừ khi bạn đã cài đặt Java. Java nhanh, an
-                            toàn và đáng tin cậy. Từ máy tính xách tay đến các
-                            trung tâm dữ liệu, máy chơi game cho các siêu máy
-                            tính khoa học, điện thoại di động đến Internet, Java
-                            ở khắp mọi nơi. Java cho phép chúng ta chơi trò chơi
-                            trực tuyến, video, âm thanh, trò chuyện với mọi
-                            người trên toàn thế giới, ứng dụng ngân hàng, xem
-                            hình ảnh 3D và mua hàng trực tuyến. Nó được coi là
-                            ngôn ngữ lập kế hoạch tốt nhất để phát triển một ứng
-                            dụng cho Web.
+                            There are a lot of apps and websites that won't work
+                            unless you have Java installed. Java is fast, an
+                            complete and reliable. From laptops to laptops data
+                            centers, game consoles for super machines science,
+                            mobile to the Internet, Java everywhere. Java allows
+                            us to play online games, video, audio, chat with
+                            everyone people around the world, banking app, watch
+                            3D images and online purchases. Seem as The best
+                            programming language for developing an app use for
+                            the Web.
                           </span>
                         </div>
                         <label htmlFor="post-7" className="read-more-trigger" />
@@ -738,21 +747,20 @@ function Home() {
                           id="post-8"
                         />
                         <div className="read-more-wrap slider-text">
-                          IOS (trước đây là iPhone OS) là một hệ điều hành di
-                          động được sáng tạo và phát triển bởi Apple Inc. dành
-                          riêng cho các phần cứng của họ. Đây là hệ điều hành
-                          hiện được sử dụng cho các thiết bị di động của công
-                          ty, bao gồm iPhone, iPad và iPod Touch. Không giống
-                          như điện thoại Windows của Microsoft
+                          IOS (formerly iPhone OS) is a mobile operating system
+                          Motion created and developed by Apple Inc. spend their
+                          own hardware. This is the operating system currently
+                          used for company mobile devices company, including
+                          iPhone, iPad, and iPod Touch. Unlike like Microsoft's
+                          Windows phone
                           <span className="read-more-target">
-                            và Android của Google, Apple không cấp phép cho iOS
-                            để cài đặt trên những phần cứng không phải của
-                            Apple. <br />
+                            and Google's Android, Apple does not license iOS to
+                            install on non- Apple. <br />
                             <br />
-                            Ngôn ngữ được sử dụng để tạo ứng dụng cho các ứng
-                            dụng iPhone, iPad và Mac OSX là Swift. Theo
-                            Statista, App Store của Apple đã có 2,2 triệu ứng
-                            dụng vào năm 2017.
+                            The language used to create applications for
+                            applications Using iPhone, iPad and Mac OSX is
+                            Swift. According to the Statista, Apple's App Store
+                            has 2.2 million applications used in 2017.
                           </span>
                         </div>
                         <label htmlFor="post-8" className="read-more-trigger" />
@@ -782,21 +790,21 @@ function Home() {
                           id="post-9"
                         />
                         <div className="read-more-wrap slider-text">
-                          Android là một hệ điều hành dựa trên Linux dành cho
-                          Điện thoại di động. Nó được thiết kế chủ yếu cho các
-                          thiết bị di động màn hình cảm ứng như điện thoại thông
-                          minh và máy tính bảng. Android, Inc. được thành lập
-                          tại Mỹ vào năm 2003 và được mua lại bởi
+                          Android is a Linux-based operating system for Mobile
+                          phone. It is mainly designed for the Touch screen
+                          mobile devices such as smartphones smart phones and
+                          tablets. Android, Inc. established in the US in 2003
+                          and was acquired by
                           <span className="read-more-target">
-                            Google vào năm 2005. Nó đã tích hợp Java Virtual
+                            Google in 2005. It has integrated Java Virtual
                             Machine.
                             <br />
                             <br />
-                            Android có một cộng đồng lớn các nhà phát triển viết
-                            các ứng dụng mở rộng chức năng của thiết bị, được
-                            viết chủ yếu bằng phiên bản ngôn ngữ lập trình Java.
-                            Theo Statista, người dùng Android đã có 2,8 triệu
-                            ứng dụng vào năm 2017.
+                            Android has a large community of developers writing
+                            Applications that extend the functionality of the
+                            device, are written mainly in the Java programming
+                            language version. According to Statista, Android
+                            users already have 2.8 million application in 2017.
                           </span>
                         </div>
                         <label htmlFor="post-9" className="read-more-trigger" />
@@ -865,8 +873,8 @@ function Home() {
                             <div className="col-md-9 col-sm-9 col-xs-12">
                               <div className="caption1">
                                 <p>
-                                  Khóa học xuất sắc, dễ dàng theo dõi, được học
-                                  với những giáo viên đầy kinh nghiệm.
+                                  Excellent course, easy to follow, learned with
+                                  experienced teachers.
                                 </p>
                                 <div className="adjust2">
                                   <i
@@ -895,14 +903,14 @@ function Home() {
                             <div className="col-md-9 col-sm-9 col-xs-12">
                               <div className="caption1">
                                 <p>
-                                  Điều mình cho là quan trọng nhất khi tham gia
-                                  vào APTECH là team work - "sức mạnh tập thể".
-                                  Làm thế nào để nhiều người cùng tham gia thực
-                                  hiện dự án một cách suôn sẽ là điều mà mình
-                                  chưa từng nghĩ tới trong suốt thời gian "một
-                                  mình một ngựa" chiến đấu trước đó. Ngoài ra,
-                                  giáo trình học của APTECH cũng rất hiện đại:
-                                  chi tiết và được cập nhật liên tục.
+                                  What I consider the most important when
+                                  participating in APTECH is team work -
+                                  "collective strength". How to get more people
+                                  to participate Running the project smoothly is
+                                  what I never thought during the "one himself a
+                                  horse" fought before. In addition, APTECH's
+                                  curriculum is also very modern: detailed and
+                                  constantly updated.
                                 </p>
                                 <div className="adjust2">
                                   <i
@@ -937,10 +945,9 @@ function Home() {
                             <div className="col-md-9 col-sm-9 col-xs-12">
                               <div className="caption1">
                                 <p>
-                                  Các giảng viên tại Aptech chính là những người
-                                  đã truyền cảm hứng, giúp mình hoàn thiện bản
-                                  thân và định hướng được con đường tương lai
-                                  riêng.
+                                  The instructors at Aptech are the ones who
+                                  inspired, helped me perfect the version body
+                                  and orient the future path private.
                                 </p>
                                 <div className="adjust2">
                                   <i
@@ -969,15 +976,16 @@ function Home() {
                             <div className="col-md-9 col-sm-9 col-xs-12">
                               <div className="caption1">
                                 <p>
-                                  Tại Aptech, dưới sự gợi mở của những người
-                                  thầy, người cô tận tình hướng dẫn, mình được
-                                  chỉ dạy những kiến thức cần nhất mà một lập
-                                  trình viên cần phải có. Đó là cách tư duy rõ
-                                  ràng, những nền tảng cập nhật nhất về phần
-                                  mềm, các công nghệ mới trên cơ sở những nguyên
-                                  lý truyền thống…Mình được trang bị đầy đủ nhất
-                                  về cả kiến thức và tinh thần, để sẵn sàng bước
-                                  chân vào ngành IT đầy thử thách.
+                                  At Aptech, under the suggestion of people
+                                  teacher, who enthusiastically guided me, I got
+                                  only teach the most necessary knowledge that a
+                                  programmer must have. That's how to think
+                                  clearly Obviously, the most up-to-date
+                                  platforms in terms of software, new
+                                  technologies on the basis of Traditional
+                                  philosophy…I'm the most fully equipped in both
+                                  knowledge and spirit, to be ready to step
+                                  Enter the challenging IT industry.
                                 </p>
                                 <div className="adjust2">
                                   <i
@@ -1012,12 +1020,13 @@ function Home() {
                             <div className="col-md-9 col-sm-9 col-xs-12">
                               <div className="caption1">
                                 <p>
-                                  Mình thấy yêu nghề và yêu “người của nghề“
-                                  hơn. Các thầy ở đây luôn động viên, tạo điều
-                                  kiện cho mình trong khi mình có nhiều thứ phải
-                                  học ngoài Aptech. Các bạn trên Aptech thì rất
-                                  thân thiện. Đặc biệt môi trường học tập cực kỳ
-                                  năng động, sáng tạo, vui vẻ,…
+                                  I love the job and love the "people of the
+                                  profession" than. The teachers here always
+                                  encourage and create things sue me when i have
+                                  a lot to do study outside Aptech. You guys on
+                                  Aptech are very friendly. Especially the
+                                  learning environment is extremely Dynamic,
+                                  creative, fun…
                                 </p>
                                 <div className="adjust2">
                                   <i
@@ -1046,11 +1055,12 @@ function Home() {
                             <div className="col-md-9 col-sm-9 col-xs-12">
                               <div className="caption1">
                                 <p>
-                                  Không gian học của trường cũng cực kỳ hay.
-                                  Thầy cô giáo tận tình. Trong những giờ học
-                                  không nhất thiết phải gò bó, có thể phát huy
-                                  tất cả những ý tưởng hay những thứ muốn làm,
-                                  miễn là không rời khỏi nội dung học…
+                                  The school space is also very good. Dedicated
+                                  teachers. During school hours It is not
+                                  necessary to be constrained, it can be
+                                  promoted all the ideas or things you want to
+                                  do, as long as you don't leave the learning
+                                  content…
                                 </p>
                                 <div className="adjust2">
                                   <i
@@ -1085,12 +1095,12 @@ function Home() {
                             <div className="col-md-9 col-sm-9 col-xs-12">
                               <div className="caption1">
                                 <p>
-                                  APTECH là cái nôi để mình trưởng thành hơn.
-                                  Tại APTECH, mình được trải qua tất cả các khâu
-                                  khi thực hành dự án, nên về sau này khi làm
-                                  việc chính thức, mình không còn bỡ ngỡ và có
-                                  thể giải quyết mọi tình huống một cách nhanh
-                                  chóng.
+                                  APTECH is the cradle for me to grow up. At
+                                  APTECH, I get to go through all the stages
+                                  when doing the project, should come later when
+                                  working official work, I am no longer
+                                  surprised and have Can handle any situation
+                                  quickly fast.
                                 </p>
                                 <div className="adjust2">
                                   <i
@@ -1119,16 +1129,16 @@ function Home() {
                             <div className="col-md-9 col-sm-9 col-xs-12">
                               <div className="caption1">
                                 <p>
-                                  Lúc học tại Aptech mình đã viết một ứng dụng
-                                  quản lý nhà hàng – một trong những đồ án khá
-                                  thú vị nhóm mình đã tự học để lập trình theo
-                                  yêu cầu từ giảng viên/trung tâm. Đây là một
-                                  trong những điều đặc biệt trong chương trình
-                                  học tại đây, mình được thực hành trực tiếp
-                                  ngay sau lý thuyết nên nhờ đó ứng dụng được
-                                  rất nhanh những kiến thức đã học. Có thể nói
-                                  quá trình học tại đây đã hỗ trợ mình rất nhiều
-                                  cho những thành tựu ngày hôm nay.
+                                  While studying at Aptech, I wrote an app
+                                  Restaurant management – one of the best
+                                  projects interesting, my group taught
+                                  themselves to program request from the
+                                  trainer/center. this is a of the specials in
+                                  the program Studying here, I can practice
+                                  directly right after the theory, so it can be
+                                  applied quickly learned knowledge. Can say
+                                  Studying here has helped me a lot for today's
+                                  achievements.
                                 </p>
                                 <div className="adjust2">
                                   <i
@@ -1163,12 +1173,12 @@ function Home() {
                             <div className="col-md-9 col-sm-9 col-xs-12">
                               <div className="caption1">
                                 <p>
-                                  Với những kiến thức được học tại Aptech cộng
-                                  với kinh nghiệm thực tiễn từ các thầy, ý tưởng
-                                  của mình đã rất nhanh chóng được hiện thực
-                                  hóa. Chưa bao giờ mình thấy từng lời thầy
-                                  giảng trên lớp, những lần thầy chỉ ra chỗ code
-                                  sai lại hữu dụng đến vậy.
+                                  With the knowledge learned at Aptech plus with
+                                  practical experience from teachers, ideas mine
+                                  was very quickly realized chemical. I have
+                                  never seen every word of the teacher lectures
+                                  in class, the times when the teacher pointed
+                                  out the code so useful.
                                 </p>
                                 <div className="adjust2">
                                   <i
@@ -1222,25 +1232,24 @@ function Home() {
         <section className="full-bg-lite" id="partner">
           <div className="container">
             <div className="row">
-              <h2 className="wow fadeInDown animated">Các đối tác liên kết</h2>
+              <h2 className="wow fadeInDown animated">Our Partner</h2>
               <div className="wrap-title" />
               <div className="margin30 col-md-6 col-sm-6 wow fadeInLeft animated delay-01">
                 <div>
                   <img src="img/middlesex-logo.png" alt="" />
-                  <h4 className="margin20">
-                    Đại học Middlesex University tại Anh Quốc
-                  </h4>
+                  <h4 className="margin20">Middlesex University</h4>
                   <p>
-                    Đại học Middlesex là một trường đại học ở phía bắc London,
-                    Anh Quốc. Trường toạ lạc tại quận Middlesex, là một quận có
-                    lịch sử lâu đời tại Anh. Middlesex tự hào là một trong những
-                    trường được sinh viên quốc tế chọn học khoá học Đại học và
-                    sau Đại học đông nhất ở Anh. Bằng việc cung cấp những nội
-                    dung chương trình học dựa trên nền tảng nghiên cứu sáng tạo,
-                    môi trường thực hành chuyên nghiệp, bên cạnh đó cũng có
-                    nhiều học bổng cho các sinh viên xuất sắc.
+                    Middlesex University is a university in north London,
+                    England. The school is located in Middlesex County, a county
+                    with Long history in England. Middlesex is proud to be one
+                    of the the school is chosen by international students to
+                    study undergraduate courses and Post-University is the most
+                    crowded in the UK. By providing content curriculum content
+                    based on innovative research, professional practice
+                    environment, besides there are also many scholarships for
+                    excellent students.
                   </p>
-                  {/*<p><a href="#">Xem them...</a></p>*/}
+                  {/*<p><a href="#">Read More...</a></p>*/}
                 </div>
               </div>
               <div className="margin30 col-md-6 col-sm-6 wow fadeInLeft animated delay-02">
@@ -1248,17 +1257,17 @@ function Home() {
                   <img src="img/ncc.png" alt="" />
                   <h4 className="margin20">NCC Education, UK</h4>
                   <p>
-                    NCC Education là tổ chức giáo dục cấp cao hàng đầu Anh Quốc.
-                    Được thành lập cách đây 40 năm, bằng cấp của NCC Education
-                    đảm bảo cho học viên tiếp tục ứng tuyển và nhập học tại hơn
-                    60 trường đại học tại Anh và các nước khác. Chất lượng đào
-                    tạo và quá trình cấp bằng của NCC được kiểm định bởi văn
-                    phòng Qualifications &amp; Examinations Regulator (OfQual).
-                    Học viên sẽ được nhận bằng cấp toàn cầu từ NCC Diploma in
-                    Computing (L5 DC) và có được những lợi thế cạnh tranh dẫn
-                    đầu và khác biệt.
+                    NCC Education is the UK's leading institution of higher
+                    education. Established 40 years ago, NCC Education degree
+                    ensure students continue to apply and enroll at more than 60
+                    universities in the UK and other countries. Peach quality
+                    NCC's creation and awarding process is accredited by the
+                    Qualifications &amp; Examinations Regulator (OfQual).
+                    Students will receive a global degree from the NCC Diploma
+                    in Computing (L5 DC) and get the leading competitive
+                    advantages top and different.
                   </p>
-                  {/*<p><a href="#">Xem them...</a></p>*/}
+                  {/*<p><a href="#">Read More...</a></p>*/}
                 </div>
               </div>
             </div>
@@ -1271,19 +1280,19 @@ function Home() {
         <section className="full-bg-grey" id="agency">
           <div className="container">
             <h2 className="wow fadeInDown animated">
-              Trở thành đối tác kinh doanh
+              Become a business partner
             </h2>
             <div className="wrap-title" />
             <p style={{ textAlign: 'center' }}>
-              Để biết chi tiết, mời Anh Chị vui lòng
+              For details, please kindly
               <a
                 href="http://aptechvietnam.vn/franchise/"
                 title="nhấn vào đây"
                 style={{ color: '#ffc800', textDecoration: 'underline' }}
               >
-                nhấn vào đây
+                click here
               </a>
-              để truy cập trang web nhượng quyền tại Việt Nam cùng Aptech.
+              to access the franchise website in Vietnam with Aptech.
             </p>
             <div className="col-md-12 col-xs-12 forma margin30">
               <form id="enquiry" name="form" action method="post">
@@ -1299,7 +1308,7 @@ function Home() {
                         className="form-control"
                         name="name"
                         id="name"
-                        placeholder="Họ & Tên"
+                        placeholder="First & Last Name"
                       />
                     </div>
                     <span className="validation_error_franchise" id="errorname">
@@ -1317,7 +1326,7 @@ function Home() {
                         name="mobile"
                         maxLength={15}
                         id="mobile"
-                        placeholder="Điện thoại di động"
+                        placeholder="Mobile phone"
                       />
                     </div>
                     <span

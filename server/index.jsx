@@ -1,7 +1,7 @@
 const express = require('express')
 const cors = require('cors')
 const { isNil } = require('lodash')
-const data = require('./data')
+const data = require('./data.jsx')
 
 const app = express()
 
@@ -9,25 +9,25 @@ app.use(cors())
 app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
 
-function containsColors(colors, product) {
-  // base case, do not skip products when there are no color filters
-  if (!colors) return true
+function containsSubjects(subjects, product) {
+  // base case, do not skip products when there are no subject filters
+  if (!subjects) return true
 
-  const selectedColors = new Set(colors.split(','))
-  const productColors = product.color
+  const selectedSubjects = new Set(subjects.split(','))
+  const productSubjects = product.subject
 
-  // check if any of the product colors are in the filter
-  for (const color of productColors) {
-    if (selectedColors.has(color)) {
+  // check if any of the product subjects are in the filter
+  for (const subject of productSubjects) {
+    if (selectedSubjects.has(subject)) {
       return true
     }
   }
 
-  // does not contain any of the filtered colors, skip this product
+  // does not contain any of the filtered subjects, skip this product
   return false
 }
 
-function applyFilters(products, { query, sort, colors, minPrice, maxPrice }) {
+function applyFilters(products, { query, sort, subjects, minPrice, maxPrice }) {
   const filteredProducts = []
 
   // skip products based on filters
@@ -36,7 +36,7 @@ function applyFilters(products, { query, sort, colors, minPrice, maxPrice }) {
       continue
     }
 
-    if (!containsColors(colors, product)) {
+    if (!containsSubjects(subjects, product)) {
       continue
     }
 

@@ -1,43 +1,5 @@
 export const links = [
   {
-    name: 'about',
-    submenu: true,
-    sublinks: [
-      {
-        Head: 'Topwear',
-        sublink: [
-          { name: 'T-shirt', link: '/' },
-          { name: 'Casual shirts', link: '/' },
-          { name: 'formal shirts', link: '/' },
-          { name: 'formal shirts', link: '/' },
-          { name: 'formal shirts', link: '/' },
-        ],
-      },
-
-      {
-        Head: 'innerwear',
-        sublink: [
-          { name: 'T-shirt', link: '/' },
-          { name: 'Casual shirts', link: '/' },
-          { name: 'formal shirts', link: '/' },
-          { name: 'formal shirts', link: '/' },
-          { name: 'formal shirts', link: '/' },
-        ],
-      },
-
-      {
-        Head: 'footwear',
-        sublink: [
-          { name: 'T-shirt', link: '/' },
-          { name: 'Casual shirts', link: '/' },
-          { name: 'formal shirts', link: '/' },
-          { name: 'formal shirts', link: '/' },
-          { name: 'formal shirts', link: '/' },
-        ],
-      },
-    ],
-  },
-  {
     name: 'Course',
     submenu: true,
     sublinks: [
@@ -45,9 +7,6 @@ export const links = [
         Head: 'Topwear',
         sublink: [
           { name: 'T-shirt', link: '/' },
-          { name: 'Casual shirts', link: '/' },
-          { name: 'formal shirts', link: '/' },
-          { name: 'formal shirts', link: '/' },
           { name: 'formal shirts', link: '/' },
         ],
       },
@@ -56,9 +15,7 @@ export const links = [
         Head: 'innerwear',
         sublink: [
           { name: 'T-shirt', link: '/' },
-          { name: 'Casual shirts', link: '/' },
-          { name: 'formal shirts', link: '/' },
-          { name: 'formal shirts', link: '/' },
+
           { name: 'formal shirts', link: '/' },
         ],
       },
@@ -67,9 +24,7 @@ export const links = [
         Head: 'footwear',
         sublink: [
           { name: 'T-shirt', link: '/' },
-          { name: 'Casual shirts', link: '/' },
-          { name: 'formal shirts', link: '/' },
-          { name: 'formal shirts', link: '/' },
+
           { name: 'formal shirts', link: '/' },
         ],
       },
@@ -83,9 +38,7 @@ export const links = [
         Head: 'Topwear',
         sublink: [
           { name: 'T-shirt', link: '/' },
-          { name: 'Casual shirts', link: '/' },
-          { name: 'formal shirts', link: '/' },
-          { name: 'formal shirts', link: '/' },
+
           { name: 'formal shirts', link: '/' },
         ],
       },
@@ -94,9 +47,7 @@ export const links = [
         Head: 'innerwear',
         sublink: [
           { name: 'T-shirt', link: '/' },
-          { name: 'Casual shirts', link: '/' },
-          { name: 'formal shirts', link: '/' },
-          { name: 'formal shirts', link: '/' },
+
           { name: 'formal shirts', link: '/' },
         ],
       },
@@ -106,8 +57,7 @@ export const links = [
         sublink: [
           { name: 'T-shirt', link: '/' },
           { name: 'Casual shirts', link: '/' },
-          { name: 'formal shirts', link: '/' },
-          { name: 'formal shirts', link: '/' },
+
           { name: 'formal shirts', link: '/' },
         ],
       },
@@ -121,9 +71,7 @@ export const links = [
         Head: 'Topwear',
         sublink: [
           { name: 'T-shirt', link: '/' },
-          { name: 'Casual shirts', link: '/' },
-          { name: 'formal shirts', link: '/' },
-          { name: 'formal shirts', link: '/' },
+
           { name: 'formal shirts', link: '/' },
         ],
       },
@@ -132,9 +80,7 @@ export const links = [
         Head: 'innerwear',
         sublink: [
           { name: 'T-shirt', link: '/' },
-          { name: 'Casual shirts', link: '/' },
-          { name: 'formal shirts', link: '/' },
-          { name: 'formal shirts', link: '/' },
+
           { name: 'formal shirts', link: '/' },
         ],
       },
@@ -143,9 +89,6 @@ export const links = [
         Head: 'footwear',
         sublink: [
           { name: 'T-shirt', link: '/' },
-          { name: 'Casual shirts', link: '/' },
-          { name: 'formal shirts', link: '/' },
-          { name: 'formal shirts', link: '/' },
           { name: 'formal shirts', link: '/' },
         ],
       },

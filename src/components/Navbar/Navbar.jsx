@@ -20,6 +20,11 @@ const Navbar = () => {
               Home
             </Link>
           </li>
+          <li>
+            <a className="py-7 px-3 inline-block" href="#about">
+              About
+            </a>
+          </li>
           <NavLinks />
         </ul>
         <div className="md:block hidden">
@@ -36,6 +41,11 @@ const Navbar = () => {
             <Link to="/" className="py-7 px-3 inline-block">
               Home
             </Link>
+          </li>
+          <li>
+            <a className="py-7 px-3 inline-block" href="#about">
+              About
+            </a>
           </li>
           <NavLinks />
           <div className="py-5">

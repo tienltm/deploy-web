@@ -17,8 +17,8 @@ const NavLinks = () => {
                 setSubHeading('')
               }}
             >
-              {/* {link.name} */}
-              <a href={'#' + link.name}>{link.name}</a>
+              {link.name}
+              {/* <a href={'#' + link.name}>{link.name}</a> */}
               <span className="text-xl md:hidden inline">
                 <ion-icon
                   name={`${

@@ -8,50 +8,51 @@ import { useSearchParams } from 'react-router-dom'
 import FilterToggle from './FilterToggle'
 import { Product } from './core/types'
 
-export default function ColorFilters() {
+export default function SubjectFilters() {
   const [search, setSearch] = useSearchParams()
-  const filteredColors = search.get('colors')?.split(',') ?? []
-  const [colors, setColors] = useState(filteredColors)
+  const filteredSubjects = search.get('subjects')?.split(',') ?? []
+  const [subjects, setSubjects] = useState(filteredSubjects)
   const getItems = useItems()
   const items = getItems.data?.products ?? []
-  const allColors = getUniqueValues<string, Product>(items, 'color')
-  const groupedItems = allColors
-    .map((color) => ({
-      label: color,
-      name: color,
-      value: color,
+  const allSubjects = getUniqueValues<string, Product>(items, 'subject')
+  const groupedItems = allSubjects
+    .map((subject) => ({
+      label: subject,
+      name: subject,
+      value: subject,
     }))
     .sort((a, b) => a.name.localeCompare(b.name))
-  const onColorChange = (color: string) => (checked: Checkbox.CheckedState) => {
-    let _colors = colors.slice()
+  const onSubjectChange =
+    (subject: string) => (checked: Checkbox.CheckedState) => {
+      let _subjects = subjects.slice()
 
-    if (checked) {
-      _colors.push(color)
-    } else {
-      _colors = _colors.filter((_color) => _color !== color)
+      if (checked) {
+        _subjects.push(subject)
+      } else {
+        _subjects = _subjects.filter((_Subject) => _Subject !== subject)
+      }
+
+      setSubjects(_subjects)
     }
-
-    setColors(_colors)
-  }
-  const hasFilters = filteredColors.length > 0
+  const hasFilters = filteredSubjects.length > 0
 
   return (
     <CollapsibleList
       defaultVisible={hasFilters}
-      title="Color"
+      title="Subject"
       actionButton={
         <FilterToggle
-          visible={colors.length > 0}
+          visible={subjects.length > 0}
           active={hasFilters}
           onApply={() => {
-            search.set('colors', colors.join(','))
+            search.set('subjects', subjects.join(','))
             setSearch(search, {
               replace: true,
             })
           }}
           onClear={() => {
-            search.delete('colors')
-            setColors([])
+            search.delete('subjects')
+            setSubjects([])
             setSearch(search, {
               replace: true,
             })
@@ -61,11 +62,11 @@ export default function ColorFilters() {
     >
       {groupedItems
         .filter((f) => {
-          if (filteredColors.length === 0) {
+          if (filteredSubjects.length === 0) {
             return true
           }
 
-          return filteredColors.includes(f.value)
+          return filteredSubjects.includes(f.value)
         })
         .map((field, key) => (
           <li key={key} className="pv2">
@@ -74,8 +75,8 @@ export default function ColorFilters() {
                 id={field.name}
                 name={field.name}
                 disabled={hasFilters}
-                onCheckedChange={onColorChange(field.value)}
-                checked={colors.includes(field.value)}
+                onCheckedChange={onSubjectChange(field.value)}
+                checked={subjects.includes(field.value)}
                 className="checkbox lh-solid flex items-center justify-center pa0 bg-white w125 h125 br2 bn"
               >
                 <Checkbox.Indicator>

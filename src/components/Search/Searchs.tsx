@@ -4,7 +4,7 @@ import Select from './Select'
 import { useItems } from './core/hooks'
 import ItemsContainer from './ItemsContainer'
 import { useSearchParams } from 'react-router-dom'
-import ColorFilters from './ColorFilters'
+import SubjectFilters from './SubjectFilters'
 import PriceFilter from './PriceFilter'
 import './SearchStyle.css'
 export default function SearchPage() {
@@ -29,7 +29,7 @@ export default function SearchPage() {
   return (
     <div className="mw9 center ph4 bg-white min-vh-100 br bl b--light-gray">
       <div className="flex bb b--black-10 justify-between items-center mb4">
-        <h1>New arrivals</h1>
+        <h1> Course Finder</h1>
 
         <div className="mr3 ml-auto">
           <SearchBar />
@@ -73,25 +73,25 @@ export default function SearchPage() {
               </li>
               <li>
                 <button className="btn bn fw5 pa0 pv2 w--100 tl bg-transparent hover-light-purple flex justify-between">
-                  Bags
-                  <span>{itemCounts['bags'] ?? 0}</span>
+                  Front End
+                  <span>{itemCounts['Front-End'] ?? 0}</span>
                 </button>
               </li>
               <li>
                 <button className="btn bn fw5 pa0 pv2 w--100 tl bg-transparent hover-light-purple flex justify-between">
-                  Shoes
-                  <span>{itemCounts['shoes'] ?? 0}</span>
+                  Back End
+                  <span>{itemCounts['Back-End'] ?? 0}</span>
                 </button>
               </li>
               <li>
                 <button className="btn bn fw5 pa0 pv2 w--100 tl bg-transparent hover-light-purple flex justify-between">
-                  Jackets
-                  <span>{itemCounts['jackets'] ?? 0}</span>
+                  Full Stack
+                  <span>{itemCounts['Full-Stack'] ?? 0}</span>
                 </button>
               </li>
             </ul>
 
-            <ColorFilters />
+            <SubjectFilters />
             <PriceFilter maxPrice={maxPrice} />
           </div>
         </div>
