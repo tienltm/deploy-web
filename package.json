@@ -2,7 +2,7 @@
   "name": "academy_center_project",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://tienltm.github.io/academy_center_project/",
+  "homepage": "https://tienltm.github.io/deploy-web",
   "dependencies": {
     "@radix-ui/react-checkbox": "^1.0.1",
     "@radix-ui/react-icons": "^1.1.1",
