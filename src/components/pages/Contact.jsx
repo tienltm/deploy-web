@@ -246,7 +246,7 @@ function Contact() {
             <button
               id="btnViewMap"
               data-action="viewmap"
-              class="btn btn-danger"
+              className="btn btn-danger"
             >
               Xem trên bản đồ
             </button>
@@ -267,7 +267,7 @@ function Contact() {
         </div>
         {/*ket noi*/}
         <div className="contact-container">
-          <h1 class="ace-header">KẾT NỐI VỚI CHÚNG TÔI</h1>
+          <h1 className="ace-header">KẾT NỐI VỚI CHÚNG TÔI</h1>
           <div className="row">
             <div className="col-md-4">
               <div

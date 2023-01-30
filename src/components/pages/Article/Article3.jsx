@@ -64,10 +64,10 @@ function Article_3() {
           </p>
           <div className="time-n-cmt-info">
             <div className="time-info">
-              <i class="fa-regular fa-calendar"></i> 29/01/2022
+              <i className="fa-regular fa-calendar"></i> 29/01/2022
             </div>
             <div className="cmt-info">
-              <i class="fa-regular fa-comments"></i> 1 comment
+              <i className="fa-regular fa-comments"></i> 1 comment
             </div>
           </div>
           <hr />

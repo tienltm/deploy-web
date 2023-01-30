@@ -23,10 +23,10 @@ function Blog() {
               <div className="content-body">
                 <div className="content-info">
                   <div className="post-view">
-                    <i class="fa-regular fa-eye"></i> 14,536
+                    <i className="fa-regular fa-eye"></i> 14,536
                   </div>
                   <div className="post-time">
-                    <i class="fa-regular fa-calendar"></i> 29/01/2022
+                    <i className="fa-regular fa-calendar"></i> 29/01/2022
                   </div>
                 </div>
                 <div className="content-dcs">
@@ -47,10 +47,10 @@ function Blog() {
               <div className="content-body">
                 <div className="content-info">
                   <div className="post-view">
-                    <i class="fa-regular fa-eye"></i> 8,456
+                    <i className="fa-regular fa-eye"></i> 8,456
                   </div>
                   <div className="post-time">
-                    <i class="fa-regular fa-calendar"></i> 22/02/2022
+                    <i className="fa-regular fa-calendar"></i> 22/02/2022
                   </div>
                 </div>
                 <div className="content-dcs">
@@ -71,10 +71,10 @@ function Blog() {
               <div className="content-body">
                 <div className="content-info">
                   <div className="post-view">
-                    <i class="fa-regular fa-eye"></i> 4,152
+                    <i className="fa-regular fa-eye"></i> 4,152
                   </div>
                   <div className="post-time">
-                    <i class="fa-regular fa-calendar"></i> 22/04/2021
+                    <i className="fa-regular fa-calendar"></i> 22/04/2021
                   </div>
                 </div>
                 <div className="content-dcs">
@@ -95,10 +95,10 @@ function Blog() {
               <div className="content-body">
                 <div className="content-info">
                   <div className="post-view">
-                    <i class="fa-regular fa-eye"></i> 9,152
+                    <i className="fa-regular fa-eye"></i> 9,152
                   </div>
                   <div className="post-time">
-                    <i class="fa-regular fa-calendar"></i> 21/06/2021
+                    <i className="fa-regular fa-calendar"></i> 21/06/2021
                   </div>
                 </div>
                 <div className="content-dcs">
@@ -119,10 +119,10 @@ function Blog() {
               <div className="content-body">
                 <div className="content-info">
                   <div className="post-view">
-                    <i class="fa-regular fa-eye"></i> 11,239
+                    <i className="fa-regular fa-eye"></i> 11,239
                   </div>
                   <div className="post-time">
-                    <i class="fa-regular fa-calendar"></i> 29/01/2021
+                    <i className="fa-regular fa-calendar"></i> 29/01/2021
                   </div>
                 </div>
                 <div className="content-dcs">
@@ -143,10 +143,10 @@ function Blog() {
               <div className="content-body">
                 <div className="content-info">
                   <div className="post-view">
-                    <i class="fa-regular fa-eye"></i> 4,968
+                    <i className="fa-regular fa-eye"></i> 4,968
                   </div>
                   <div className="post-time">
-                    <i class="fa-regular fa-calendar"></i> 17/01/2021
+                    <i className="fa-regular fa-calendar"></i> 17/01/2021
                   </div>
                 </div>
                 <div className="content-dcs">

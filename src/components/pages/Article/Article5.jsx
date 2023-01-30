@@ -24,14 +24,14 @@ function Article_5() {
           </p>
           <h1>Types of Business Bank Accounts</h1>
           <p>
-            <i class="fa-solid fa-leaf"></i> Types of business bank accounts
+            <i className="fa-solid fa-leaf"></i> Types of business bank accounts
             include checking, savings, and merchant accounts. <br />
-            <i class="fa-solid fa-leaf"></i> A business bank account can protect
-            you from liability, improve your cash flow, allow debit and credit
-            transactions from customers, provide tax benefits, and give you
-            purchasing power.
+            <i className="fa-solid fa-leaf"></i> A business bank account can
+            protect you from liability, improve your cash flow, allow debit and
+            credit transactions from customers, provide tax benefits, and give
+            you purchasing power.
             <br />
-            <i class="fa-solid fa-leaf"></i> Many banks allow you to open a
+            <i className="fa-solid fa-leaf"></i> Many banks allow you to open a
             business account online in a matter of minutes.
           </p>
           <h1>Latest Articles Updated Daily</h1>
@@ -52,10 +52,10 @@ function Article_5() {
           </p>
           <div className="time-n-cmt-info">
             <div className="time-info">
-              <i class="fa-regular fa-calendar"></i> 29/01/2022
+              <i className="fa-regular fa-calendar"></i> 29/01/2022
             </div>
             <div className="cmt-info">
-              <i class="fa-regular fa-comments"></i> 1 comment
+              <i className="fa-regular fa-comments"></i> 1 comment
             </div>
           </div>
           <hr />

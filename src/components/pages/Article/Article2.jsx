@@ -37,19 +37,19 @@ function Article_2() {
           </p>
           <h1>Making Perfect Placeholder</h1>
           <p>
-            <i class="fa-solid fa-leaf"></i> Everything in your industry that
-            happens text with their software passage. <br />
-            <i class="fa-solid fa-leaf"></i> Distribution patterns may not be as
-            critical the text with their software. <br />
-            <i class="fa-solid fa-leaf"></i> Analysis is part of good management
-            history of lorem ipsum the text with their.
+            <i className="fa-solid fa-leaf"></i> Everything in your industry
+            that happens text with their software passage. <br />
+            <i className="fa-solid fa-leaf"></i> Distribution patterns may not
+            be as critical the text with their software. <br />
+            <i className="fa-solid fa-leaf"></i> Analysis is part of good
+            management history of lorem ipsum the text with their.
           </p>
           <div className="time-n-cmt-info">
             <div className="time-info">
-              <i class="fa-regular fa-calendar"></i> 29/01/2022
+              <i className="fa-regular fa-calendar"></i> 29/01/2022
             </div>
             <div className="cmt-info">
-              <i class="fa-regular fa-comments"></i> 1 comment
+              <i className="fa-regular fa-comments"></i> 1 comment
             </div>
           </div>
           <hr />

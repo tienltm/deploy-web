@@ -55,24 +55,25 @@ function Article_4() {
           </p>
           <h1>Key Takeaways</h1>
           <p>
-            <i class="fa-solid fa-leaf"></i> Business expenses are necessary,
-            recurring costs incurred while operating a business in order to make
-            a profit. <br />
-            <i class="fa-solid fa-leaf"></i> Many expenses related to starting a
-            new business count as business expenses that can be deducted. <br />
-            <i class="fa-solid fa-leaf"></i> Up to $5,000 in startup costs and
-            $5,000 in organization costs are deductible as business expenses in
-            your first year of operation. <br />
-            <i class="fa-solid fa-leaf"></i> Some business-related expenses are
-            non-deductible, but you may be able to recoup them through other
+            <i className="fa-solid fa-leaf"></i> Business expenses are
+            necessary, recurring costs incurred while operating a business in
+            order to make a profit. <br />
+            <i className="fa-solid fa-leaf"></i> Many expenses related to
+            starting a new business count as business expenses that can be
+            deducted. <br />
+            <i className="fa-solid fa-leaf"></i> Up to $5,000 in startup costs
+            and $5,000 in organization costs are deductible as business expenses
+            in your first year of operation. <br />
+            <i className="fa-solid fa-leaf"></i> Some business-related expenses
+            are non-deductible, but you may be able to recoup them through other
             cost-saving methods. <br />
           </p>
           <div className="time-n-cmt-info">
             <div className="time-info">
-              <i class="fa-regular fa-calendar"></i> 29/01/2022
+              <i className="fa-regular fa-calendar"></i> 29/01/2022
             </div>
             <div className="cmt-info">
-              <i class="fa-regular fa-comments"></i> 1 comment
+              <i className="fa-regular fa-comments"></i> 1 comment
             </div>
           </div>
           <hr />

@@ -23,7 +23,7 @@ function Course1() {
                   </Link>
                   <Link className="buy-now">Buy now</Link>
                 </div>
-                <div class="product-info">
+                <div className="product-info">
                   <Link className="product-cat">loafer</Link>
                   <Link className="product-name">Stock investment</Link>
                   <div className="product-price">600.000đ</div>

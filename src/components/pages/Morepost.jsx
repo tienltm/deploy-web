@@ -28,7 +28,7 @@ function Morepost() {
                   Business strategy for marketing system
                 </div>
                 <div className="list-sidebar-count">
-                  <i class="fa-solid fa-eye"></i> 14,564
+                  <i className="fa-solid fa-eye"></i> 14,564
                 </div>
               </div>
             </div>
@@ -45,7 +45,7 @@ function Morepost() {
                   You should know about business plan
                 </div>
                 <div className="list-sidebar-count">
-                  <i class="fa-solid fa-eye"></i> 10,564
+                  <i className="fa-solid fa-eye"></i> 10,564
                 </div>
               </div>
             </div>
@@ -62,7 +62,7 @@ function Morepost() {
                   10 Tips for managing small business
                 </div>
                 <div className="list-sidebar-count">
-                  <i class="fa-solid fa-eye"></i> 5,468
+                  <i className="fa-solid fa-eye"></i> 5,468
                 </div>
               </div>
             </div>
@@ -79,7 +79,7 @@ function Morepost() {
                   10 Ways to achieve your business goal
                 </div>
                 <div className="list-sidebar-count">
-                  <i class="fa-solid fa-eye"></i> 8,125
+                  <i className="fa-solid fa-eye"></i> 8,125
                 </div>
               </div>
             </div>

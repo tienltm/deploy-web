@@ -34,7 +34,7 @@ const Course3 = () => {
       <div>
         <button
           type="button"
-          class="btn btn-dark btn-flat"
+          className="btn btn-dark btn-flat"
           data-toggle="modal"
           data-target=".bs-example-modal-lg"
         >
@@ -42,18 +42,18 @@ const Course3 = () => {
         </button>
 
         <div
-          class="modal fade bs-example-modal-lg"
-          tabindex="-1"
+          className="modal fade bs-example-modal-lg"
+          tabIndex="-1"
           role="dialog"
           aria-labelledby="myLargeModalLabel"
         >
-          <div class="modal-dialog modal-lg">
-            <div class="modal-content">...</div>
+          <div className="modal-dialog modal-lg">
+            <div className="modal-content">...</div>
           </div>
         </div>
         <button
           type="button"
-          class="btn btn-dark btn-flat"
+          className="btn btn-dark btn-flat"
           data-toggle="modal"
           data-target=".bs-example-modal-sm"
         >
@@ -61,13 +61,13 @@ const Course3 = () => {
         </button>
 
         <div
-          class="modal fade bs-example-modal-sm"
-          tabindex="-1"
+          className="modal fade bs-example-modal-sm"
+          tabIndex="-1"
           role="dialog"
           aria-labelledby="mySmallModalLabel"
         >
-          <div class="modal-dialog modal-sm">
-            <div class="modal-content">...</div>
+          <div className="modal-dialog modal-sm">
+            <div className="modal-content">...</div>
           </div>
         </div>
       </div>

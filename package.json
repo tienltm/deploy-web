@@ -2,6 +2,7 @@
   "name": "academy_center_project",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://tienltm.github.io/academic-center",
   "dependencies": {
     "@radix-ui/react-checkbox": "^1.0.1",
     "@radix-ui/react-icons": "^1.1.1",
@@ -27,6 +28,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "server": "node ./server/index.jsx"
@@ -52,6 +55,7 @@
   "devDependencies": {
     "@types/react": "^18.0.26",
     "autoprefixer": "^10.4.13",
+    "gh-pages": "^5.0.0",
     "postcss": "^8.4.20",
     "tailwindcss": "^3.2.4"
   }

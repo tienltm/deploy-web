@@ -39,20 +39,20 @@ function Article_6() {
           </p>
           <h1>Cash Flow Statement</h1>
           <p>
-            <i class="fa-solid fa-leaf"></i>A PnL statement explains the income
-            and expenses that lead to a company's profits. <br />
-            <i class="fa-solid fa-leaf"></i>The document proceeds from top-line
-            revenue to the bottom line.
+            <i className="fa-solid fa-leaf"></i>A PnL statement explains the
+            income and expenses that lead to a company's profits. <br />
+            <i className="fa-solid fa-leaf"></i>The document proceeds from
+            top-line revenue to the bottom line.
             <br />
-            <i class="fa-solid fa-leaf"></i>It's ideal to review changes in PnL
-            statements over multiple periods.
+            <i className="fa-solid fa-leaf"></i>It's ideal to review changes in
+            PnL statements over multiple periods.
           </p>
           <div className="time-n-cmt-info">
             <div className="time-info">
-              <i class="fa-regular fa-calendar"></i> 29/01/2022
+              <i className="fa-regular fa-calendar"></i> 29/01/2022
             </div>
             <div className="cmt-info">
-              <i class="fa-regular fa-comments"></i> 1 comment
+              <i className="fa-regular fa-comments"></i> 1 comment
             </div>
           </div>
           <hr />
