@@ -92,7 +92,7 @@ function Home() {
               <div className="col-sm-6 col-lg-3 col-md-3 wow fadeInLeft animated delay-01">
                 <div className="advantages-info">
                   <span className="advantages-icon">
-                    <img src="img/icon-sm1.png" alt="" className="stroke" />
+                    <img src="./img/icon-sm1.png" alt="" className="stroke" />
                   </span>
                   <h4 className="ui-title-inner decor decor_mod-a">
                     Education quality
@@ -109,7 +109,7 @@ function Home() {
               <div className="col-sm-6 col-lg-3 col-md-3 wow fadeInLeft animated delay-02">
                 <div className="advantages-info">
                   <span className="advantages-icon">
-                    <img src="img/icon-sm2.png" alt="" className="stroke" />
+                    <img src="./img/icon-sm2.png" alt="" className="stroke" />
                   </span>
                   <h4 className="ui-title-inner decor decor_mod-a">
                     IT industry
@@ -126,7 +126,7 @@ function Home() {
               <div className="col-sm-6 col-lg-3 col-md-3 wow fadeInLeft animated delay-03">
                 <div className="advantages-info">
                   <span className="advantages-icon">
-                    <img src="img/icon-sm3.png" alt="" className="stroke" />
+                    <img src="./img/icon-sm3.png" alt="" className="stroke" />
                   </span>
                   <h4 className="ui-title-inner decor decor_mod-a">
                     IT Career
@@ -143,7 +143,7 @@ function Home() {
               <div className="col-sm-6 col-lg-3 col-md-3 wow fadeInLeft animated delay-04">
                 <div className="advantages-info">
                   <span className="advantages-icon">
-                    <img src="img/icon-sm4.png" alt="" className="stroke" />
+                    <img src="./img/icon-sm4.png" alt="" className="stroke" />
                   </span>
                   <h4 className="ui-title-inner decor decor_mod-a">
                     Online learning portal
@@ -188,7 +188,7 @@ function Home() {
                           <div className="col-sm-4 col-lg-4 col-md-4 wow zoomIn animated delay-01">
                             <div className="thumbnail">
                               <img
-                                src="images/courses/acn_pro.jpg"
+                                src="./images/courses/acn_pro.jpg"
                                 alt=""
                                 className="img-responsive"
                               />
@@ -217,7 +217,7 @@ function Home() {
                           <div className="col-sm-4 col-lg-4 col-md-4 wow zoomIn animated delay-01">
                             <div className="thumbnail">
                               <img
-                                src="images/courses/courses-img1.jpg"
+                                src="./images/courses/courses-img1.jpg"
                                 alt=""
                                 className="img-responsive"
                               />
@@ -243,7 +243,7 @@ function Home() {
                           <div className="col-sm-4 col-lg-4 col-md-4 wow zoomIn animated delay-02">
                             <div className="thumbnail">
                               <img
-                                src="images/courses/courses-img2.jpg"
+                                src="./images/courses/courses-img2.jpg"
                                 alt=""
                                 className="img-responsive"
                               />
@@ -269,7 +269,7 @@ function Home() {
                             </div>
                           </div>
                           {/*<div className="col-sm-4 col-lg-4 col-md-4 wow zoomIn animated delay-03">
-                      <div className="thumbnail"> <img src="images/courses/courses-img3.jpg" alt="" className="img-responsive">
+                      <div className="thumbnail"> <img src="./images/courses/courses-img3.jpg" alt="" className="img-responsive">
                         <div className="caption">
                           <h4>Khoá học dành cho người mới bắt đầu</h4>
                           <p>Khoá học dành cho người mới bắt đầu được thiết kế cho những học viên trẻ, những sinh viên còn đang trong giảng đường đại học hoặc vừa tốt nghiệp và muốn khám phá và bắt đầu từ những bước đi đầu tiên trong lĩnh vực Công Nghệ Thông Tin.</p>
@@ -298,7 +298,7 @@ function Home() {
                 <h2>
                   <img
                     className="img-responsive"
-                    src="img/img-onlinevarsity.png"
+                    src="./img/img-onlinevarsity.png"
                     alt=""
                   />
                 </h2>
@@ -308,7 +308,7 @@ function Home() {
               <div>
                 <h2 className="margin20 wow fadeInRightBig animated delay-02">
                   <img
-                    src="images/onlinevarsity.png"
+                    src="./images/onlinevarsity.png"
                     alt=""
                     className="img-responsive"
                   />
@@ -328,30 +328,30 @@ function Home() {
                 <div className="row">
                   <div className="col-sm-2 col-lg-2 col-md-2 text-center wow fadeInDown animated delay-04">
                     <figure>
-                      <img src="img/icon-onlinever1.png" alt="" />
+                      <img src="./img/icon-onlinever1.png" alt="" />
                       <figcaption>Online lectures</figcaption>
                     </figure>
                   </div>
                   <div className="col-sm-2 col-lg-2 col-md-2 text-center wow fadeInDown animated delay-05">
-                    <img src="img/icon-onlinever2.png" alt="" />
+                    <img src="./img/icon-onlinever2.png" alt="" />
                     <figure>
                       <figcaption>Login 24/7</figcaption>
                     </figure>
                   </div>
                   <div className="col-sm-2 col-lg-2 col-md-2 text-center wow fadeInDown animated delay-06">
-                    <img src="img/icon-onlinever3.png" alt="" />
+                    <img src="./img/icon-onlinever3.png" alt="" />
                     <figure>
                       <figcaption>Click Go to learn</figcaption>
                     </figure>
                   </div>
                   <div className="col-sm-2 col-lg-2 col-md-2 text-center wow fadeInDown animated delay-07">
-                    <img src="img/icon-onlinever4.png" alt="" />
+                    <img src="./img/icon-onlinever4.png" alt="" />
                     <figure>
                       <figcaption>Certifications</figcaption>
                     </figure>
                   </div>
                   <div className="col-sm-2 col-lg-2 col-md-2 text-center wow fadeInDown animated delay-08">
-                    <img src="img/icon-onlinever5.png" alt="" />
+                    <img src="./img/icon-onlinever5.png" alt="" />
                     <figure>
                       <figcaption>Guide</figcaption>
                     </figure>
@@ -383,7 +383,7 @@ function Home() {
                         <h2>
                           <img
                             className="img-responsive"
-                            src="images/technologyhub/tech-img1.png"
+                            src="./images/technologyhub/tech-img1.png"
                             alt=""
                           />
                         </h2>
@@ -441,7 +441,7 @@ function Home() {
                         <h2>
                           <img
                             className="img-responsive"
-                            src="images/technologyhub/tech-img2.png"
+                            src="./images/technologyhub/tech-img2.png"
                             alt=""
                           />
                         </h2>
@@ -479,7 +479,7 @@ function Home() {
                         <h2>
                           <img
                             className="img-responsive"
-                            src="images/technologyhub/tech-img3.png"
+                            src="./images/technologyhub/tech-img3.png"
                             alt=""
                           />
                         </h2>
@@ -531,7 +531,7 @@ function Home() {
                         <h2>
                           <img
                             className="img-responsive"
-                            src="images/technologyhub/tech-img4.png"
+                            src="./images/technologyhub/tech-img4.png"
                             alt=""
                           />
                         </h2>
@@ -574,7 +574,7 @@ function Home() {
                         <h2>
                           <img
                             className="img-responsive"
-                            src="images/technologyhub/tech-img5.png"
+                            src="./images/technologyhub/tech-img5.png"
                             alt=""
                           />
                         </h2>
@@ -625,7 +625,7 @@ function Home() {
                         <h2>
                           <img
                             className="img-responsive"
-                            src="images/technologyhub/tech-img6.png"
+                            src="./images/technologyhub/tech-img6.png"
                             alt=""
                           />
                         </h2>
@@ -682,7 +682,7 @@ function Home() {
                         <h2>
                           <img
                             className="img-responsive"
-                            src="images/technologyhub/tech-img7.png"
+                            src="./images/technologyhub/tech-img7.png"
                             alt=""
                           />
                         </h2>
@@ -732,7 +732,7 @@ function Home() {
                         <h2>
                           <img
                             className="img-responsive"
-                            src="images/technologyhub/tech-img8.png"
+                            src="./images/technologyhub/tech-img8.png"
                             alt=""
                           />
                         </h2>
@@ -775,7 +775,7 @@ function Home() {
                         <h2>
                           <img
                             className="img-responsive"
-                            src="images/technologyhub/tech-img9.png"
+                            src="./images/technologyhub/tech-img9.png"
                             alt=""
                           />
                         </h2>
@@ -866,7 +866,7 @@ function Home() {
                             <div className="col-md-3 col-sm-3 col-xs-12">
                               <img
                                 className="media-object rounded-circle img-thumbnail"
-                                src="images/testimonials/testim-img1.jpg"
+                                src="./images/testimonials/testim-img1.jpg"
                                 alt=""
                               />
                             </div>
@@ -896,7 +896,7 @@ function Home() {
                             <div className="col-md-3 col-sm-3 col-xs-12">
                               <img
                                 className="media-object rounded-circle img-thumbnail"
-                                src="images/testimonials/testim-img25.jpg"
+                                src="./images/testimonials/testim-img25.jpg"
                                 alt=""
                               />
                             </div>
@@ -938,7 +938,7 @@ function Home() {
                             <div className="col-md-3 col-sm-3 col-xs-12">
                               <img
                                 className="media-object rounded-circle img-thumbnail"
-                                src="images/testimonials/testim-img26.jpg"
+                                src="./images/testimonials/testim-img26.jpg"
                                 alt=""
                               />
                             </div>
@@ -969,7 +969,7 @@ function Home() {
                             <div className="col-md-3 col-sm-3 col-xs-12">
                               <img
                                 className="media-object rounded-circle img-thumbnail"
-                                src="images/testimonials/testim-img27.jpg"
+                                src="./images/testimonials/testim-img27.jpg"
                                 alt=""
                               />
                             </div>
@@ -1013,7 +1013,7 @@ function Home() {
                             <div className="col-md-3 col-sm-3 col-xs-12">
                               <img
                                 className="media-object rounded-circle img-thumbnail"
-                                src="images/testimonials/testim-img28.jpg"
+                                src="./images/testimonials/testim-img28.jpg"
                                 alt=""
                               />
                             </div>
@@ -1048,7 +1048,7 @@ function Home() {
                             <div className="col-md-3 col-sm-3 col-xs-12">
                               <img
                                 className="media-object rounded-circle img-thumbnail"
-                                src="images/testimonials/testim-img29.jpg"
+                                src="./images/testimonials/testim-img29.jpg"
                                 alt=""
                               />
                             </div>
@@ -1088,7 +1088,7 @@ function Home() {
                             <div className="col-md-3 col-sm-3 col-xs-12">
                               <img
                                 className="media-object rounded-circle img-thumbnail"
-                                src="images/testimonials/testim-img30.jpg"
+                                src="./images/testimonials/testim-img30.jpg"
                                 alt=""
                               />
                             </div>
@@ -1122,7 +1122,7 @@ function Home() {
                             <div className="col-md-3 col-sm-3 col-xs-12">
                               <img
                                 className="media-object rounded-circle img-thumbnail"
-                                src="images/testimonials/testim-img31.jpg"
+                                src="./images/testimonials/testim-img31.jpg"
                                 alt=""
                               />
                             </div>
@@ -1166,7 +1166,7 @@ function Home() {
                             <div className="col-md-3 col-sm-3 col-xs-12">
                               <img
                                 className="media-object rounded-circle img-thumbnail"
-                                src="images/testimonials/testim-img32.jpg"
+                                src="./images/testimonials/testim-img32.jpg"
                                 alt=""
                               />
                             </div>
@@ -1236,7 +1236,7 @@ function Home() {
               <div className="wrap-title" />
               <div className="margin30 col-md-6 col-sm-6 wow fadeInLeft animated delay-01">
                 <div>
-                  <img src="img/middlesex-logo.png" alt="" />
+                  <img src="./img/middlesex-logo.png" alt="" />
                   <h4 className="margin20">Middlesex University</h4>
                   <p>
                     Middlesex University is a university in north London,
@@ -1254,7 +1254,7 @@ function Home() {
               </div>
               <div className="margin30 col-md-6 col-sm-6 wow fadeInLeft animated delay-02">
                 <div>
-                  <img src="img/ncc.png" alt="" />
+                  <img src="./img/ncc.png" alt="" />
                   <h4 className="margin20">NCC Education, UK</h4>
                   <p>
                     NCC Education is the UK's leading institution of higher
