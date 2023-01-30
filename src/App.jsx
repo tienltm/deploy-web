@@ -4,6 +4,7 @@ import Navbar from './components/Navbar/Navbar'
 // import './App.css'
 import Button from './components/Navbar/Button'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { HashRouter } from 'react-router-dom'
 import Home from './components/pages/Home'
 import Course from './components/pages/Course'
 import Course1 from './components/pages/Course/Course1'
@@ -30,7 +31,7 @@ function App() {
   return (
     <>
       <QueryClientProvider client={queryClient}>
-        <BrowserRouter>
+        <HashRouter basename="/">
           <Navbar />
           <Routes>
             <Route path="/" element={<Home />} />
@@ -72,7 +73,7 @@ function App() {
               <Route path="page8" element={<Page8 />} /> */}
             {/* </Route> */}
           </Routes>
-        </BrowserRouter>
+        </HashRouter>
       </QueryClientProvider>
       {/* <div className="abc">
         <img src="./components/Pages/Hero.png" alt="" />
