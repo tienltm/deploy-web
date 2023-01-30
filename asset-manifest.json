@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/academy_center_project/static/css/main.7bf99060.css",
-    "main.js": "/academy_center_project/static/js/main.49880973.js",
-    "static/media/bg_aptech-buzz.jpg": "/academy_center_project/static/media/bg_aptech-buzz.3910f6e0044fb78f06c1.jpg",
-    "static/media/bg_edu-partner.jpg": "/academy_center_project/static/media/bg_edu-partner.6d1bf74b0297a39d19be.jpg",
-    "static/media/bg_tech.jpg": "/academy_center_project/static/media/bg_tech.15ec564806106459d8f6.jpg",
-    "index.html": "/academy_center_project/index.html",
-    "main.7bf99060.css.map": "/academy_center_project/static/css/main.7bf99060.css.map",
-    "main.49880973.js.map": "/academy_center_project/static/js/main.49880973.js.map"
+    "main.css": "/deploy-web/static/css/main.1e906a40.css",
+    "main.js": "/deploy-web/static/js/main.49880973.js",
+    "static/media/bg_aptech-buzz.jpg": "/deploy-web/static/media/bg_aptech-buzz.3910f6e0044fb78f06c1.jpg",
+    "static/media/bg_edu-partner.jpg": "/deploy-web/static/media/bg_edu-partner.6d1bf74b0297a39d19be.jpg",
+    "static/media/bg_tech.jpg": "/deploy-web/static/media/bg_tech.15ec564806106459d8f6.jpg",
+    "index.html": "/deploy-web/index.html",
+    "main.1e906a40.css.map": "/deploy-web/static/css/main.1e906a40.css.map",
+    "main.49880973.js.map": "/deploy-web/static/js/main.49880973.js.map"
   },
   "entrypoints": [
-    "static/css/main.7bf99060.css",
+    "static/css/main.1e906a40.css",
     "static/js/main.49880973.js"
   ]
 }
