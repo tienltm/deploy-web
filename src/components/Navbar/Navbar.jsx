@@ -9,7 +9,10 @@ const Navbar = () => {
     <nav className="bg-indigo-100">
       <div className="flex items-center font-medium justify-around">
         <div className="z-50 p-5 md:w-auto w-full flex justify-between">
-          <img src={Logo} alt="logo" className="md:cursor-pointer h-9" />
+          <Link to="/">
+            <img src={Logo} alt="logo" className="md:cursor-pointer h-9" />
+          </Link>
+
           <div className="text-3xl md:hidden" onClick={() => setOpen(!open)}>
             <ion-icon name={`${open ? 'close' : 'menu'}`}></ion-icon>
           </div>
@@ -26,9 +29,12 @@ const Navbar = () => {
             </Link>
           </li> */}
           <li>
-            <a className="py-7 px-3 inline-block" href="/#about">
+            {/* <a className="py-7 px-3 inline-block" href="#about">
               About
-            </a>
+            </a> */}
+            {/* <Link to="#about" className="py-7 px-3 inline-block">
+              About
+            </Link> */}
           </li>
           <NavLinks />
         </ul>

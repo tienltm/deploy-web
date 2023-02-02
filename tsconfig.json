@@ -16,6 +16,6 @@
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react-jsx"
-  },
-  "include": ["src/components/Search"]
+  }
+  // "include": ["./src/components/Search"]
 }
