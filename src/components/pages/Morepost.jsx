@@ -3,11 +3,11 @@ import './Article/Articles.css'
 import { Link } from 'react-router-dom'
 import { Routes, Route } from 'react-router-dom'
 
-import Article_2 from './Article/Article2'
-import Article_4 from './Article/Article4'
-import Article_3 from './Article/Article3'
-import Article_6 from './Article/Article6'
-import Article_5 from './Article/Article5'
+// import ArticleNo2 from './Article/Article2'
+import ArticleNo4 from './Article/Article4'
+import ArticleNo3 from './Article/Article3'
+import ArticleNo6 from './Article/Article6'
+import ArticleNo5 from './Article/Article5'
 
 function Morepost() {
   return (
@@ -87,10 +87,10 @@ function Morepost() {
         </div>
       </div>
       <Routes>
-        <Route path="article-3" element={<Article_3 />} />
-        <Route path="article-4" element={<Article_4 />} />
-        <Route path="article-5" element={<Article_5 />} />
-        <Route path="article-6" element={<Article_6 />} />
+        <Route path="article-3" element={<ArticleNo3 />} />
+        <Route path="article-4" element={<ArticleNo4 />} />
+        <Route path="article-5" element={<ArticleNo5 />} />
+        <Route path="article-6" element={<ArticleNo6 />} />
       </Routes>
     </>
   )

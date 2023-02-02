@@ -1,8 +1,8 @@
 import React from 'react'
 import './Blog.css'
-import Article_1 from './Article/Article1'
+// import ArticleNo1 from './Article/Article1'
 import { Link } from 'react-router-dom'
-import { Routes, Route } from 'react-router-dom'
+// import { Routes, Route } from 'react-router-dom'
 
 function Blog() {
   return (

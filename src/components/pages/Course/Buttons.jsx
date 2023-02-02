@@ -1,7 +1,7 @@
 import React from 'react'
 import Data from './Data'
 //import './Buttons.css'
-import Data1 from './Data1'
+// import Data1 from './Data1'
 const Buttons = ({ filterItem, setItem, menuItems }) => {
   return (
     <>

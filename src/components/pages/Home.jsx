@@ -1,7 +1,7 @@
-import React, { useEffect } from 'react'
-// import '../../App.css'
-import Cards from '../Cards'
-import HeroSection from '../HeroSection'
+import React from 'react'
+import '../../App.css'
+// import Cards from '../Cards'
+// import HeroSection from '../HeroSection'
 import Footer from '../Footer'
 import HomepageSlider from '../Carousel/Carousel'
 import './Home.css'
@@ -1578,7 +1578,7 @@ function Home() {
                         id="submitbtn"
                         name="submitbtn"
                         className="send"
-                        onClick="validationEnquiry();"
+                        // onClick="validationEnquiry();"
                       >
                         <i className="fa fa-share" />
                         &nbsp;Gửi

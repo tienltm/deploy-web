@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link, Outlet } from 'react-router-dom'
 import './Course.css'
-import Course3 from './Course/Course3'
+// import Course3 from './Course/Course3'
 function Course() {
   return (
     <>

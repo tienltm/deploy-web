@@ -76,6 +76,6 @@ app.get('/items', (req, res) => {
   }, 250)
 })
 
-app.listen(3001, () => {
-  console.info('server listening on: 3001')
+app.listen(process.env.PORT || 3001, () => {
+  console.info('server listening on: 3001 or ', process.env.PORT)
 })

@@ -1,8 +1,8 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react'
 import { Link } from 'react-router-dom'
 import Course from '../Course'
 import './Course1.css'
-import Course3 from './Course3'
+// import Course3 from './Course3'
 //import Course4 from './Course4'
 function Course1() {
   return (

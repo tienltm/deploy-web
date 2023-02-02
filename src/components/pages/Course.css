@@ -3,14 +3,7 @@
   padding-top: 30px;
   margin-top: -25px;
 }
-.khoahoc body {
-  /* margin: 0; */
-  @media only screen and (max-width: 200px) {
-    body {
-      background-color: lightblue;
-    }
-  }
-}
+
 .khoahoc ul {
   list-style-type: none;
   margin-left: -300px;

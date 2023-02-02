@@ -4,7 +4,7 @@ import './Articles.css'
 import Morepost from '../Morepost'
 import Comment from '../Comment'
 
-function Article_5() {
+function ArticleNo5() {
   return (
     <>
       <div className="article-header">
@@ -72,4 +72,4 @@ function Article_5() {
   )
 }
 
-export default Article_5
+export default ArticleNo5

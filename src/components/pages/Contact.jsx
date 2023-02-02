@@ -58,6 +58,7 @@ function Contact() {
                   <a
                     href="https://www.facebook.com/messages/t/tran.na.16"
                     target="_blank"
+                    rel="noreferrer"
                     title="Ho tro tu van qua Facebook"
                   >
                     Facebook Message
@@ -72,6 +73,7 @@ function Contact() {
                   <a
                     href="http://zalo.me/0775440700"
                     target="_blank"
+                    rel="noreferrer"
                     title="Ho tro tu van qua Zalo"
                   >
                     Zalo Message
@@ -128,6 +130,7 @@ function Contact() {
                   <a
                     href="https://www.facebook.com/messages/t/yen.lang.1"
                     target="_blank"
+                    rel="noreferrer"
                     title="Ho tro tu van qua Facebook"
                   >
                     Facebook Message
@@ -142,6 +145,7 @@ function Contact() {
                   <a
                     href="http://zalo.me/0934917241"
                     target="_blank"
+                    rel="noreferrer"
                     title="Ho tro tu van qua Zalo"
                   >
                     Zalo Message
@@ -198,6 +202,7 @@ function Contact() {
                   <a
                     href="https://www.facebook.com/messages/t/vonumaitram"
                     target="_blank"
+                    rel="noreferrer"
                     title="Ho tro tu van qua Facebook"
                   >
                     Facebook Message
@@ -212,6 +217,7 @@ function Contact() {
                   <a
                     href="http://zalo.me/0393917446"
                     target="_blank"
+                    rel="noreferrer"
                     title="Ho tro tu van qua Zalo"
                   >
                     Zalo Message
@@ -254,6 +260,7 @@ function Contact() {
         </div>
         <div className="contact-container">
           <iframe
+            title="location map"
             style={{
               border: '3px solid rgb(152, 74, 74)',
               borderRadius: '10px',
