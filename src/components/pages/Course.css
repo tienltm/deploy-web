@@ -32,3 +32,8 @@
   font-weight: bold;
   color: white;
 }
+.Pagination {
+  position: relative;
+
+  margin-left: 40%;
+}

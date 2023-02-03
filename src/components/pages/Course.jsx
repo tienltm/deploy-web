@@ -1,7 +1,11 @@
 import React from 'react'
 import { Link, Outlet } from 'react-router-dom'
 import './Course.css'
-// import Course3 from './Course/Course3'
+
+import Course1 from './Course/Course1'
+import Pagination from '@mui/material/Pagination'
+import Stack from '@mui/material/Stack'
+
 function Course() {
   return (
     <>
@@ -15,7 +19,7 @@ function Course() {
               <Link to="/course3">Physics</Link>
             </li>
             <li>
-              <Link to="/course3">Chemistry</Link>
+              <Link to="/mathscourse">Chemistry</Link>
             </li>
             <li>
               <Link to="/course4">Biology</Link>
@@ -27,15 +31,25 @@ function Course() {
               <Link to="/course2">Geography</Link>
             </li>
             <li>
-              <Link to="/course4">Fine Art.</Link>
+              <Link to="/math_couse">Fine Art.</Link>
             </li>
             <li>
-              <Link to="/course1">Literature</Link>
+              <Link to="/course4">Literature</Link>
             </li>
           </ul>
         </div>
         <Outlet />
       </div>
+
+      <Course1 />
+      {/* <div className="Pagination">
+        <Stack spacing={2}>
+          <Pagination count={10} />
+          <Pagination count={10} color="primary" />
+          <Pagination count={10} color="secondary" />
+          <Pagination count={10} disabled />
+        </Stack>
+      </div> */}
     </>
   )
 }

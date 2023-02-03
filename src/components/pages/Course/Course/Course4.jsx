@@ -68,38 +68,38 @@ const Course4 = () => {
         {' '}
         <button
           type="button"
-          className="btn btn-dark btn-flat"
+          class="btn btn-dark btn-flat"
           data-toggle="modal"
           data-target=".bs-example-modal-lg"
         >
           Large modal
         </button>
         <div
-          className="modal fade bs-example-modal-lg"
-          tabIndex="-1"
+          class="modal fade bs-example-modal-lg"
+          tabindex="-1"
           role="dialog"
           aria-labelledby="myLargeModalLabel"
         >
-          <div className="modal-dialog modal-lg">
-            <div className="modal-content">...</div>
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">...</div>
           </div>
         </div>
         <button
           type="button"
-          className="btn btn-dark btn-flat"
+          class="btn btn-dark btn-flat"
           data-toggle="modal"
           data-target=".bs-example-modal-sm"
         >
           Small modal
         </button>
         <div
-          className="modal fade bs-example-modal-sm"
-          tabIndex="-1"
+          class="modal fade bs-example-modal-sm"
+          tabindex="-1"
           role="dialog"
           aria-labelledby="mySmallModalLabel"
         >
-          <div className="modal-dialog modal-sm">
-            <div className="modal-content">...</div>
+          <div class="modal-dialog modal-sm">
+            <div class="modal-content">...</div>
           </div>
         </div>
       </div> */}

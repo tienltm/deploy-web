@@ -1,8 +1,9 @@
 import React, { useState } from 'react'
+import { Link, Outlet } from 'react-router-dom'
 import Data from './Data'
 import Card from './Card'
 import Buttons from './Buttons'
-import Course from '../Course'
+// import Course from '../Course'
 import './Course3.css'
 const Course3 = () => {
   const [item, setItem] = useState(Data)
@@ -15,7 +16,39 @@ const Course3 = () => {
   }
   return (
     <>
-      <Course />
+      {/* <Course /> */}
+      <div className="sidebar">
+        <div className="khoahoc">
+          <ul>
+            <li>
+              <Link to="/course4">Mathematics (Maths)</Link>
+            </li>
+            <li>
+              <Link to="/course3">Physics</Link>
+            </li>
+            <li>
+              <Link to="/mathscourse">Chemistry</Link>
+            </li>
+            <li>
+              <Link to="/course4">Biology</Link>
+            </li>
+            <li>
+              <Link to="/course3">Information Technology.</Link>
+            </li>
+            <li>
+              <Link to="/course2">Geography</Link>
+            </li>
+            <li>
+              <Link to="/math_couse">Fine Art.</Link>
+            </li>
+            <li>
+              <Link to="/course4">Literature</Link>
+            </li>
+          </ul>
+        </div>
+        <Outlet />
+      </div>
+
       <div className="all_tong">
         <div className="container-fluid">
           <div className="row">

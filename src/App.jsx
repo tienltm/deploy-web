@@ -27,6 +27,9 @@ import ArticleNo4 from './components/pages/Article/Article4'
 import ArticleNo5 from './components/pages/Article/Article5'
 import ArticleNo6 from './components/pages/Article/Article6'
 import Ourstory from './components/pages/Ourstory'
+import Math_Course from './components/pages/Course/Math_Course'
+import MathsCourse from './components/pages/Course/MathsCourse'
+import Detail_Course from './components/pages/Course/Detail_Course'
 
 function App() {
   return (
@@ -52,12 +55,14 @@ function App() {
             <Route path="/article_6" element={<ArticleNo6 />} />
             <Route path="/ourstory" element={<Ourstory />} />
 
-            <Route path="/course" element={<Course3 />} />
+            <Route path="/course" element={<Course />} />
             <Route path="/course1" element={<Course1 />} />
             <Route path="/course2" element={<Course2 />} />
             <Route path="/course3" element={<Course3 />} />
             <Route path="/course4" element={<Course4 />} />
-
+            <Route path="/math_couse" element={<Math_Course />} />
+            <Route path="/mathscourse" element={<MathsCourse />} />
+            <Route path="/detail_course" element={<Detail_Course />} />
             {/* <Route path="Course" element={<Course />}>
               <Route path="course1" element={<Course1 />} />
               <Route path="course2" element={<Course2 />} />

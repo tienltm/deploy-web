@@ -1,8 +1,8 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 // import Course from '../Course'
 import './Course1.css'
-// import Course3 from './Course3'
+import Course3 from './Course3'
 //import Course4 from './Course4'
 function Course1() {
   return (
@@ -25,7 +25,7 @@ function Course1() {
                     View Detail
                   </Link>
                 </div>
-                <div className="product-info">
+                <div class="product-info">
                   <Link className="product-cat">loafer</Link>
                   <Link className="product-name">Stock investment</Link>
                   <div className="product-price">600.000đ</div>
