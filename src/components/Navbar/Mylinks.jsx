@@ -1,34 +1,8 @@
 export const links = [
   {
     name: 'Course',
-    submenu: true,
-    sublinks: [
-      {
-        Head: 'Topwear',
-        sublink: [
-          { name: 'blog-1', link: '/' },
-          { name: 'blog-2', link: '/' },
-        ],
-      },
-
-      {
-        Head: 'innerwear',
-        sublink: [
-          { name: 'blog-1', link: '/' },
-
-          { name: 'blog-2', link: '/' },
-        ],
-      },
-
-      {
-        Head: 'footwear',
-        sublink: [
-          { name: 'blog-1', link: '/' },
-
-          { name: 'blog-2', link: '/' },
-        ],
-      },
-    ],
+    submenu: false,
+    sublinks: [],
   },
   {
     name: 'blog',
@@ -69,33 +43,7 @@ export const links = [
   },
   {
     name: 'Our Story',
-    submenu: true,
-    sublinks: [
-      {
-        Head: 'Topwear',
-        sublink: [
-          { name: 'blog-1', link: '/' },
-
-          { name: 'blog-2', link: '/' },
-        ],
-      },
-
-      {
-        Head: 'innerwear',
-        sublink: [
-          { name: 'blog-1', link: '/' },
-
-          { name: 'blog-2', link: '/' },
-        ],
-      },
-
-      {
-        Head: 'footwear',
-        sublink: [
-          { name: 'blog-1', link: '/' },
-          { name: 'blog-2', link: '/' },
-        ],
-      },
-    ],
+    submenu: false,
+    sublinks: [],
   },
 ]

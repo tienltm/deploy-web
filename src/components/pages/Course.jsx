@@ -3,8 +3,8 @@ import { Link, Outlet } from 'react-router-dom'
 import './Course.css'
 
 import Course1 from './Course/Course1'
-import Pagination from '@mui/material/Pagination'
-import Stack from '@mui/material/Stack'
+// import Pagination from '@mui/material/Pagination'
+// import Stack from '@mui/material/Stack'
 
 function Course() {
   return (

@@ -2,7 +2,7 @@ module.exports = [
   {
     name: 'Python',
     subject: ['Mobile App', 'Data Analysis', 'AI'],
-    price: 200,
+    price: 30000,
     category: 'Full-Stack',
     src: 'http://i3.ytimg.com/vi/gBUjI6iyeC8/hqdefault.jpg',
   },
@@ -23,21 +23,21 @@ module.exports = [
   {
     name: 'PHP',
     subject: ['Web', 'Window App'],
-    price: 2000,
+    price: 40000,
     category: 'Full-Stack',
     src: 'https://miro.medium.com/max/750/0*zqNMYY5rMsu6jJCP.jpg',
   },
   {
     name: 'R',
     subject: ['AI', 'Computer Vision', 'Data Analysis'],
-    price: 2000,
+    price: 20000,
     category: 'Full-Stack',
     src: 'https://csdt.co.in/assets/img/R-Programming.jpg',
   },
   {
     name: 'SQL',
     subject: ['AI', 'Back-End', 'Window App'],
-    price: 20000,
+    price: 50000,
     category: 'Back-End',
     src: 'https://cdn.ucberkeleybootcamp.com/wp-content/uploads/sites/106/2020/03/SQL-Coding-Class-San-Francisco-1.jpeg',
   },
